@@ -17,7 +17,10 @@ const config: QuartzConfig = {
     baseUrl: "notes.myrdin.cx",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: true,
+    generateSocialImages: {
+      colorScheme: "darkMode",
+      excludeRoot: false,
+    },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
