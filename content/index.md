@@ -1,5 +1,5 @@
 ---
-title: "@myrdin"
+title: "home"
 ---
 
 This is a blank Quartz installation.
