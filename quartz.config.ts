@@ -30,18 +30,18 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#faf8f8", // page background
+          lightgray: "#e5e5e5", //borders
+          gray: "#b8b8b8", //graph links, heavier borders
+          darkgray: "#4e4e4e", // body text
+          dark: "#2b2b2b", // header text and icons
+          secondary: "#284b63", // link colour, current graph node
+          tertiary: "#84a59d", // hover states and visited, graph nodes
+          highlight: "rgba(143, 159, 169, 0.15)", // internal link background, highlighted text, highlighted lines of code
+          textHighlight: "#fff23688", // markdown highlighted text background
         },
         darkMode: {
-          light: "#161618",
+          light: "#1e1e1eff",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",

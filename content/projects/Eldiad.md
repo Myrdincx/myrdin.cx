@@ -6,7 +6,8 @@ tags:
 permalink: notes.myrdin.cx/projects/eldiad
 ---
  
-## Eldiad
+---
+# Eldiad
 
 **Eldiad** is an **unfinished [conlang](https://en.wikipedia.org/wiki/Constructed_language)** based on a few Western- and Northern-European languages.
 
