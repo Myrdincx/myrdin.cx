@@ -19,7 +19,6 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     generateSocialImages: {
       colorScheme: "darkMode",
-      excludeRoot: false,
     },
     theme: {
       fontOrigin: "googleFonts",
