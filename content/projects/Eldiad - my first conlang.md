@@ -1,5 +1,5 @@
 ---
-title: '"Eldiad: my first conlang"'
+title: "Eldiad: my first conlang"
 draft: false
 tags:
   - linguistics
