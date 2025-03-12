@@ -1,9 +1,9 @@
 ---
-title: '"Eldiad - my first conlang"'
+title: '"Eldiad: my first conlang"'
 draft: false
 tags:
   - linguistics
-permalink: '"notes.myrdin.cx/projects/eldiad"'
+permalink: notes.myrdin.cx/projects/eldiad
 ---
  
 ## General information
