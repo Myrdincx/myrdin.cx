@@ -32,6 +32,8 @@ Take your time to explore! :)
 
 Snowflake allows you to connect to the Tor network in places where Tor is blocked by routing your connection through volunteer proxies located in uncensored countries.
 
+Simply enable the snowflake and **leave this tab open** in order to help circumvent censorship.
+
 More info (and alternatives, such as downloading an extension) can be found on [the torproject website](https://snowflake.torproject.org/).
 
 <iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
