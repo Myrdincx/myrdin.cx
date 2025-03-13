@@ -1,5 +1,6 @@
 ---
 title: "@myrdin/home"
+description: Homepage
 ---
 ---
 ##### Welcome to my page!

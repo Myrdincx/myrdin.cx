@@ -1,9 +1,10 @@
 ---
 title: Eldiad - my first conlang
+description: Eldiad is an unfinished conlang based on a few Western- and Northern-European languages.
 draft: false
 tags:
   - linguistics
-permalink: notes.myrdin.cx/projects/eldiad
+permalink:
 ---
  
 ---

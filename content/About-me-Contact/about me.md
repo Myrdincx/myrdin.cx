@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: some information about me!
+description: Some information about me!
 draft: false
 tags:
 ---
