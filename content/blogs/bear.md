@@ -11,16 +11,16 @@ date: 2025-01-27
 
 The English word **bear** has an intriguing history, rooted in fear, mythology, and a fascinating linguistic evolution. It derives from the Old English *bera*, which shares common ancestry with the names for bears in other Germanic languages, such as the (modern) Swedish term *björn* or the Dutch term *beer*.
 
-Interestingly, the word **bear** is unrelated to what linguists consider the Proto-Indo-European term for bear: _h₂ŕ̥tḱos_. This ancient root gave rise to the Latin _ursus_ and the Greek _ἄρκτος_ (more on these later!).  
+Interestingly, the word **bear** is unrelated to what linguists consider the Proto-Indo-European term for bear: _h₂ŕ̥tḱos_. This ancient root gave rise to the Latin _ursus_ and the Greek _ἄρκτος_ (more on these later!).  
 
 Instead, **bear** originates from the Proto-Indo-European root _*bher-_ (meaning "brown"), which evolved into the Proto-Germanic _*bero_, meaning "the brown one," and eventually into the Old English _*bera_, which closely resembles the modern English word.
 
-The rise of this term is linked to a fascinating cultural phenomenon: taboo avoidance.
-Proto-Germanic tribes believed that calling the true name of the bear (h₂ŕ̥tḱos) might summon the powerful animal. To avoid this danger, they adopted euphemistic terms, leading to the creation of *bero and its linguistic descendants, including bear.
+The rise of this term is linked to a fascinating cultural phenomenon: **taboo avoidance**.
+Proto-Germanic tribes believed that calling the true name of the bear (*h₂ŕ̥tḱos*) might summon the powerful animal. To avoid this danger, they adopted euphemistic terms, leading to the creation of _*bero_ and its linguistic descendants, including bear.
 
-While Germanic languages opted for euphemisms, other language families preserved the original name. Latin gave us ursus (which survives in the scientific term Ursidae), and Greek retained ἄρκτος.
+While Germanic languages opted for euphemisms, other language families preserved the original name. Latin gave us _ursus_ (which survives in the scientific term _Ursidae_), and Greek retained _ἄρκτος_.
 
-The term ἄρκτος also plays a key role in the naming of the Arctic and Antarctic. The Arctic derives its name from the Greek arktikos, meaning "of the bear," in reference to the constellation Ursa Major, the "Great Bear," which is prominently visible in the northern sky.
+The term _ἄρκτος_ also plays a key role in the naming of the Arctic and Antarctic. The Arctic derives its name from the Greek *arktikos*, meaning "of the bear," in reference to the constellation Ursa Major, the "Great Bear," which is prominently visible in the northern sky.
 The Antarctic, on the other hand, literally means "opposite the bear," as it refers to the southernmost region of the Earth, where Ursa Major is not visible.
 
 Bears have also left their mark on names and cultural symbols. For example, the name Ursula means "little she-bear," popularized by the famous movie character.
