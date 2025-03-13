@@ -1,6 +1,6 @@
 ---
 title: "@myrdin/home"
-description: My name is **Myrdin**, a Dutch-English linguistics student based in Belgium. If you'd like to discover more about me, don't hesitate to contact me.
+description: My name is Myrdin, a Dutch-English linguistics student based in Belgium. If you'd like to discover more about me, don't hesitate to contact me.
 ---
 ---
 ##### Welcome to my page!
