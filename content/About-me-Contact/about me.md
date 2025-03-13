@@ -1,8 +1,10 @@
 ---
-title: About me
+title: About Me
+description: some information about me!
 draft: false
 tags:
 ---
+
 ---  
 ## About Me
 
@@ -48,4 +50,5 @@ Right now, I have a wide range of interests that keep me engaged, including:
    `"   `"      `""
 ```
 
+---
 
