@@ -29,9 +29,10 @@ Germanic languages contribute names like Bernard ("strong as a bear"), the Swiss
 The bear’s imposing presence has left its mark on our language, culture, and legends!
 
 ---
+*source used[^2]* 
 
 [^1]: _Poetic compounds or poetic kenning: a compound expression in Old English and Old Norse poetry with metaphorical meaning, e.g., **hronrad** (whale road) meaning "sea."_
 
-![[bear.png| 250x500]][^2]
+![History of Bear](/media/blogs/bear/bear.png)
 
-[^2]: Harper, Douglas. “Etymology of bear.” Online Etymology Dictionary, https://www.etymonline.com/word/bear. Accessed 27 January, 2025. 
+[^2]:Harper, Douglas. “Etymology of bear.” Online Etymology Dictionary, https://www.etymonline.com/word/bear. Accessed 27 January, 2025. 
