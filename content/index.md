@@ -3,13 +3,19 @@ title: "@myrdin/home"
 description: My name is Myrdin, a Dutch-English linguistics student based in Belgium.
 ---
 ---
-##### Welcome to my page!
+#### Welcome to my page!
 
 My name is **Myrdin**, a Dutch-English linguistics student based in Belgium. 
 
 If you'd like to discover more [[about me]], don't hesitate to [[contact]] me.
 
 Take your time to explore! :)
+
+##### Guestbook
+
+If you appreciate this website and would like to share your thoughts, feel free to leave a message in the [guestbook](https://myrdin.atabook.org/).
+
+---
 
 ```
             &&& &&  & &&
