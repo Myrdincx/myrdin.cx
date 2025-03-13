@@ -15,7 +15,6 @@ Take your time to explore! :)
 
 If you appreciate this website and would like to share your thoughts, feel free to leave a message in the [guestbook](https://myrdin.atabook.org/).
 
----
 
 ```
             &&& &&  & &&
