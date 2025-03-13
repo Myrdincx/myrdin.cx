@@ -101,6 +101,6 @@ Expanding this vocabulary would make it possible to actually form sentences!
 
 ### Grammar
 
-While I like the simplicity in not having too many tenses, there could be some more grammatical constructions I could add in the future.
+While I like the simplicity of not having too many tenses, there could be some more grammatical constructions I could add in the future.
 
 
