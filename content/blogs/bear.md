@@ -1,6 +1,6 @@
 ---
 title: The Fascinating History of the Word "Bear"
-description: A brief exploration of the word "bear" from a linguistics perspective
+description: A brief exploration of the word "bear" from a linguistics perspective.
 tags:
   - linguistics
 draft: false
