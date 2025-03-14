@@ -4,7 +4,7 @@ description:
 tags: 
 draft: false
 date: 
-socialImage: '"covers/myrdin-homepage.png"'
+socialImage: '"/covers/myrdin-homepage.png"'
 ---
 ---  
 The rest of your content lives here. You can use **Markdown** here :)

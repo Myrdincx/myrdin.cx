@@ -4,7 +4,8 @@ description: Eldiad is an unfinished conlang based on a few Western- and Norther
 draft: false
 tags:
   - linguistics
-permalink:
+permalink: 
+date: 2024-10-09
 ---
  
 ---
