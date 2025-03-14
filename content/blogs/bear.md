@@ -35,7 +35,7 @@ The bear’s imposing presence has left its mark on our language, culture, and l
 ![[bear.png]]
 
 ---
-##### Sources
+## Sources
 
 Harper, Douglas. “Etymology of bear.” Online Etymology Dictionary, https://www.etymonline.com/word/bear. Accessed 27 January, 2025. 
 
