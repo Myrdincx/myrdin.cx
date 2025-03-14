@@ -1,6 +1,6 @@
 ---
 title: projects
-description: A list of all the projects.
+description: Here’s a rundown of all my projects.
 tags: 
 draft: false
 date:
