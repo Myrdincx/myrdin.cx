@@ -40,11 +40,7 @@ Tags: singleplayer, escapism, nature, emotional
 _"This is probably my favourite game; taking you through a rollercoaster of emotions with its stunning visuals and voiced-over story." - Myrdin_
 
 
-This was the very first storygame I ever played, and I genuinely think everyone should give it a shot. It's totally worth your time.
-Over a few hours of gameplay, you dive into an incredible voiced-over story about life-challenges and how to deal with them all wrapped into a game with an a unique art-style.
-The game unfolds as a roughly four-hour emotional journey that really draws you in and connects you to the experience.
-Playing as a firewatch park ranger, you feel a sense of isolation that tends to stir up a lot of emotions.
-While many people seem to dislike the "brutal" ending, which hit me like a brick, I believe it's actually the best way to end the story.
+This was the very first storygame I ever played, and I genuinely think everyone should give it a shot. It's totally worth your time. Over a few hours of gameplay, you dive into an incredible voiced-over story about life-challenges and how to deal with them all wrapped into a game with an a unique art-style. The game unfolds as a roughly four-hour emotional journey that really draws you in and connects you to the experience. Playing as a firewatch park ranger, you feel a sense of isolation that tends to stir up a lot of emotions. While many people seem to dislike the "brutal" ending, which hit me like a brick, I believe it's actually the best way to end the story.
 
 ---
 ### The Hunter: Call of the Wild
@@ -56,7 +52,6 @@ Tags: *singleplayer, co-op, hunting, nature, challenging*
 _"The best hunting game I have played." - Myrdin_
 
 This breathtaking game can be enjoyed both in singleplayer and co-op.
-The stunning visuals, a rewarding difficulty of gameplay, challenges and the ability to play this for hours on end make this an absolute recommendation.
-This game runs really smoothly, even on linux! :)
-I mostly enjoy this game together with friends, running around the various maps (DLC's) and hunting whatever we find :)
+The stunning visuals, a rewarding difficulty of gameplay, challenges and the ability to play this for hours on end make this an absolute recommendation. This game runs really smoothly, even on linux! I mostly enjoy this game together with friends, running around the various maps (DLC's) and hunting whatever we find :) 
+
 
