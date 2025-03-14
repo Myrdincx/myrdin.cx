@@ -7,7 +7,7 @@ description: My name is Myrdin, a Dutch-English linguistics student based in Bel
 
 My name is **Myrdin**, a Dutch-English linguistics student based in Belgium. 
 
-If you'd like to discover more [[about me]], don't hesitate to [[contact]] me.
+If you'd like to discover more [[About Me]], don't hesitate to [[Contact]] me.
 
 Take your time to explore! :)
 

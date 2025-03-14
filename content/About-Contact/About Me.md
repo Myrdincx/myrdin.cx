@@ -6,7 +6,7 @@ tags:
 ---
 
 ---  
-## About Me
+## General Information
 
 My name is **Myrdin** (pronounced as */mirdin/*), a linguistics student living in Belgium.
 
