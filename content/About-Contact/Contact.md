@@ -42,8 +42,7 @@ misc:
 You're welcome to drop a message in the [Guestbook](https://myrdin.atabook.org)!<br>
 You can also check it out in the iframe provided below!
 
-<iframe src="https://myrdin.atabook.org" height="650" width="400" >
-</iframe>
+<iframe src="https://myrdin.atabook.org" height="650" overflow="no"></iframe>
 
 
 
