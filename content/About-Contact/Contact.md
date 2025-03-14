@@ -13,6 +13,8 @@ Do you have any suggestions? Is something broken?
 
 Feel free to let me know at `contact (at) myrdin (dot) cx` or additionally add me on [discord](https://discord.com/users/300300616335622154/).
 
+I also added an [RSS Feed](https://notes.myrdin.cx/index.xml) and a [sitemap](https://notes.myrdin.cx/sitemap.xml) that you can explore.
+
 ### Find me elsewhere
 
 social media:
