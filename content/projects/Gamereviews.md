@@ -13,7 +13,7 @@ socialImage:
 This is my personal opinion for each of the games!
 Feel free to add me on [steam](https://steamcommunity.com/id/Myrdincx/).
 
-In case this ever becomes a big list of game reviews.
+In case this ever becomes a big list of game reviews. <br>
 Try to use **CTRL+F** to see if the game you're searching for is in the list or use the Table-of-Contents on the side of the website!
 
 ### My hardware
