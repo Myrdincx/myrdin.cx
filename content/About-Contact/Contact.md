@@ -23,6 +23,7 @@ social media:
 - [instagram](https://www.instagram.com/myrdincx/)
 - [pinterest](https://www.pinterest.com/myrdincx/)
 - [bluesky](https://bsky.app/profile/myrdincx.bsky.social)
+- [neocities profile](https://neocities.org/site/myrdin)
 - [status cafe](https://status.cafe/users/myrdin)
 
 my other websites:
