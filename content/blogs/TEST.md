@@ -2,7 +2,7 @@
 title: TEST
 description: 
 tags: 
-draft: true
+draft: false
 date: 
 socialImage: '"covers/myrdin-homepage.png"'
 ---
