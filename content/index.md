@@ -1,7 +1,7 @@
 ---
 title: "@myrdin/home"
 description: My name is Myrdin, a Dutch-English linguistics student based in Belgium.
-socialImage:
+socialImage: '"covers/myrdin-homepage.png"'
 ---
 ---
 ### Welcome to my page!
