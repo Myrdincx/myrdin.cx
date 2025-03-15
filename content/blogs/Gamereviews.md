@@ -47,7 +47,7 @@ This was the very first storygame I ever played, and I genuinely think everyone 
 
 Rating: ★★★★☆ (4,5/5) <br>
 Store page: [official website](https://callofthewild.thehunter.com/) | [steam](https://store.steampowered.com/app/518790/theHunter_Call_of_the_Wild/) <br>
-Tags: *singleplayer, co-op, hunting, nature, challenging* 
+Tags: singleplayer, co-op, hunting, nature, challenging
 
 _"The best hunting game I have played." - Myrdin_
 
