@@ -21,6 +21,10 @@ If you appreciate this website and would like to share your thoughts, feel free 
 
 Feel free to add the [RSS Feed](https://notes.myrdin.cx/index.xml) to your RSS reader. Additionally, be sure to check out the [Sitemap](https://notes.myrdin.cx/sitemap.xml)!
 
+##### Webrings and Buttons
+
+**Work in Progress!** - I have to transfer them over from my main site.
+
 ```
             &&& &&  & &&
         && &\/&\|& ()|/ @, &&
