@@ -8,7 +8,7 @@ date: 2024-11-20
 modified: 2025-03-15
 ---
 ---  
-## Information
+### Information
 
 [Blinkies/Buttons](https://en.wiktionary.org/wiki/blinkie) are animated userboxes, they often contain a link to another page.
 A [webring](https://en.wikipedia.org/wiki/Webring) is a collection of websites linked together, often in a circular structure.
