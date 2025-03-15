@@ -25,6 +25,7 @@ Try to use **CTRL+F** to see if the game you're searching for is in the list o
 | **RAM:** 32GB DDR5                                  |
 | **STORAGE:** 2TB NVMe, 1TB NVMe, 128GB SSD, 1TB HDD |
 | **MOBO:** MSI MAG B650 TOMAHAWK WIFI                |
+| **OS:** Fedora Linux (KDE Spin)                     |
 
 ---
 
