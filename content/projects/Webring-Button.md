@@ -14,8 +14,7 @@ modified: 2025-03-15
 A [webring](https://en.wikipedia.org/wiki/Webring) is a collection of websites linked together, often in a circular structure.
 This page contains a collection of buttons that specifically apply to my website, along with some blinkies from other websites that I’ve come across and found really fascinating, cool and/or awesome.
 
-If you enjoy my website, feel free to link it by using my buttons (the two below) on your website.
-You can either **download them (preferable way)** or hotlink them (less preferable).
+If you enjoy my website, feel free to link it by using my buttons (the two below) on your website. You can either **download them (preferable way)** or hotlink them (less preferable).
 
 ### My site
 
@@ -40,6 +39,7 @@ My **banner [240x60]**:
 ```
 
 ### Webrings
+
 <a href="https://webring.bucketfish.me/redirect.html?to=prev&amp;name=myrdin">⥼ prev</a> <a href="https://webring.bucketfish.me" target="_blank">| bucket webring |</a> <a href="https://webring.bucketfish.me/redirect.html?to=next&amp;name=myrdin">next ⥽</a>
 
 <a href="https://webring.cult.ist/prev?id=https://myrdin.cx">⥼ prev</a><a href="https://webring.cult.ist/" target="_blank">| the cultring |</a><a href="https://webring.cult.ist/next?id=https://myrdin.cx">next ⥽</a>
