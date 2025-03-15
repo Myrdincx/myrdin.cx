@@ -40,7 +40,6 @@ Feel free to add the [RSS Feed](https://notes.myrdin.cx/index.xml) to your RSS r
          , -=-~  .-^- _
 ```
 
-
 <details>
 <summary>Help people circumvent censorship!</summary>
 
@@ -53,4 +52,3 @@ More info (and alternatives, such as downloading an extension) can be found on [
 <iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
 
 </details>
-
