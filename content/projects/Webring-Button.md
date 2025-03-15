@@ -3,7 +3,6 @@ title: Webrings & Buttons (WIP)
 description: A collection of webrings, I am a part of and buttons I came across.
 tags:
   - webring
-  - button
 draft: false
 date: 2024-11-20
 modified: 2025-03-15
