@@ -14,7 +14,7 @@ modified: 2025-03-15
 A [webring](https://en.wikipedia.org/wiki/Webring) is a collection of websites linked together, often in a circular structure.
 This page contains a collection of buttons that specifically apply to my website, along with some blinkies from other websites that I’ve come across and found really fascinating, cool and/or awesome.
 
-If you enjoy my website, feel free to link it by using my buttons (the two below) on your website. You can either **download them (preferable way)** or hotlink them (less preferable).
+If you enjoy my website, feel free to link it by using my buttons (the two below) on your website. <br> You can either **download them (preferable way)** or hotlink them (less preferable).
 
 ### My site
 
