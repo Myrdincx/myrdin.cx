@@ -16,6 +16,8 @@ Feel free to add me on [steam](https://steamcommunity.com/id/Myrdincx/).
 In case this ever becomes a big list of game reviews. <br>
 Try to use **CTRL+F** to see if the game you're searching for is in the list or use the Table-of-Contents on the side of the website!
 
+If you're looking for broader media suggestions, don't hesitate to visit the [[mediareqs]] page.
+
 ### My hardware
 
 | Components                                          |
