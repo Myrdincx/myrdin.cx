@@ -23,7 +23,7 @@ This page does not include game reviews, but you're welcome to visit the [[gamer
 ### Need 2 - Pinegrove
 
 Rating: ★★★★★ (5/5) <br>
-Links: [Spotify](https://open.spotify.com/track/3kQfBtkQqgN1fAMfhks8TU?si=ca9cb35f56024356) | [YouTube](https://youtu.be/zE_rK8PX83Q?si=VobHdbeyAGFoEROG) | [Bandcamp](https://pinegrove.bandcamp.com/track/need-2-2) <br>
+Links: [Spotify](https://open.spotify.com/track/3kQfBtkQqgN1fAMfhks8TU?si=ca9cb35f56024356) | [YouTube](https://youtu.be/zE_rK8PX83Q?si=VobHdbeyAGFoEROG) | [Bandcamp](https://pinegrove.bandcamp.com/track/need-2-2) | [Soundcloud](https://soundcloud.com/pinegroveband/sets/need-2-1)<br>
 Tags: folk rock, indie rock, alternative, country, ...
 
 Pinegrove as a band has the remarkable ability to stir emotions within me that other artists simply can't. Their music strikes a perfect balance between looking towards the future, while holding onto a nostalgic past. Need 2 is what got me into listening to Pinegrove. 
