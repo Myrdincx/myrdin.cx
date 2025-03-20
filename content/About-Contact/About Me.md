@@ -13,7 +13,7 @@ My name is **Myrdin** (pronounced as */mirdin/*), a linguistics student living i
 Right now, I have a wide range of interests that keep me engaged, including:
 
 - **Stargazing** - space is just fascinating and captivating :)
-- **Photography** - where I share my amateur work on [Pinterest](https://www.pinterest.com/myrdincx/_pins/)
+- **Photography** - where I share my amateur work on [Pinterest](https://www.pinterest.com/myrdincx/_created/)
 - **Computers** - I have been tinkering and exploring with Linux lately, really enjoying it :)
 - **Nature** - I have always had a deep appreciation for nature and enjoy taking some time to reflect on things! 
 
