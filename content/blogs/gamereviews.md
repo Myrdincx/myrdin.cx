@@ -1,7 +1,7 @@
 ---
 title: Game Reviews
 description: I have a few games in mind that I'd like to share my thoughts on.
-tags: 
+tags: media, games
 draft: false
 date: 2024-11-10
 modified: 2025-03-14

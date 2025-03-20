@@ -8,7 +8,7 @@ socialImage: https://notes.myrdin.cx/static/covers/myrdin-homepage.png
 
 My name is **Myrdin**, a Dutch-English linguistics student based in Belgium. 
 
-If you'd like to discover more [[About Me]], don't hesitate to [[Contact]] me.
+If you'd like to discover more [[about me]], don't hesitate to [[contact]] me.
 
 Take your time to explore! :)
 
