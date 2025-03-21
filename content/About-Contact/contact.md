@@ -13,7 +13,7 @@ Do you have any suggestions? Is something broken?
 
 Feel free to let me know at `contact (at) myrdin (dot) cx` or additionally add me on [discord](https://discord.com/users/300300616335622154/).
 
-I also added an [RSS Feed](https://notes.myrdin.cx/index.xml) and a [sitemap](https://notes.myrdin.cx/sitemap.xml) that you can explore.
+I also added an [RSS Feed](https://myrdin.cx/index.xml) and a [sitemap](https://myrdin.cx/sitemap.xml) that you can explore.
 
 ### Find me elsewhere
 
@@ -27,9 +27,9 @@ social media:
 - [status cafe](https://status.cafe/users/myrdin)
 
 my other websites:
-- [myrdin.cx](https://myrdin.cx) - main site
-- [myrdin.neocities.org](https://myrdin.neocities.org/) - neocities website (same as main one)
-- [notes.myrdin.cx](https://notes.myrdin.cx) - you're right here!
+- [myrdin.cx](https://myrdin.cx) - you're right here!
+- [old.myrdin.cx](https://old.myrdin.cx) - my old website
+- [myrdin.neocities.org](https://myrdin.neocities.org/) - neocities website (same as old one)
 
 coding:
 - [github](https://github.com/Myrdincx)

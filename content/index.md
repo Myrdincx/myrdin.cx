@@ -1,7 +1,7 @@
 ---
 title: "@myrdin/home"
 description: My name is Myrdin, a Dutch-English linguistics student based in Belgium.
-socialImage: https://notes.myrdin.cx/static/covers/myrdin-homepage.png
+socialImage: https://myrdin.cx/static/covers/myrdin-homepage.png
 ---
 ---
 ### Welcome to my page!
@@ -19,7 +19,7 @@ If you appreciate this website and would like to share your thoughts, feel free 
 
 ##### RSS Feed and Sitemap
 
-Feel free to add the [RSS Feed](https://notes.myrdin.cx/index.xml) to your RSS reader. Additionally, be sure to check out the [Sitemap](https://notes.myrdin.cx/sitemap.xml)!
+Feel free to add the [RSS Feed](https://myrdin.cx/index.xml) to your RSS reader. Additionally, be sure to check out the [Sitemap](https://myrdin.cx/sitemap.xml)!
 
 ##### Webrings and Buttons
 
