@@ -30,7 +30,7 @@ Pinegrove as a band has the remarkable ability to stir emotions within me that o
 The lyrics (only 10 lines!) paired with the charming atmosphere of the song, is able to strike a chord every single time. It really manages to capture the "raw human experience". <br>
 No matter how often I come back to this song, it always gives me that same comforting feeling. 
 
-![[Pinegrove_Need2.png|150x150]]
+![[Pinegrove_Need2.jpg|150x150]]
 
 ### Pinegrove - Rose
 
