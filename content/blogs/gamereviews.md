@@ -5,7 +5,6 @@ tags: media, games
 draft: false
 date: 2024-11-10
 modified: 2025-03-14
-socialImage:
 ---
 ---  
 ## General Information
