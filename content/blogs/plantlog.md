@@ -6,7 +6,7 @@ tags:
 draft: false
 date: 2025-03-21
 modified: 2025-03-21
-socialImage: https://myrdin.cx/static/plants.gif
+socialImage: https://myrdin.cx/static/covers/plants.gif
 ---
 ---  
 
