@@ -1,5 +1,4 @@
 import { QuartzConfig } from "./quartz/cfg"
-import { Darkmode } from "./quartz/components"
 import * as Plugin from "./quartz/plugins"
 
 /**
