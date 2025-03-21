@@ -20,7 +20,7 @@ This page does not include game reviews, but you're welcome to visit the [[gamer
   
 ## Music
 
-### Need 2 - Pinegrove
+### Pinegrove - Need 2
 
 Rating: ★★★★★ (5/5) <br>
 Links: [Spotify](https://open.spotify.com/track/3kQfBtkQqgN1fAMfhks8TU?si=ca9cb35f56024356) | [YouTube](https://youtu.be/zE_rK8PX83Q?si=VobHdbeyAGFoEROG) | [Bandcamp](https://pinegrove.bandcamp.com/track/need-2-2) | [Soundcloud](https://soundcloud.com/pinegroveband/sets/need-2-1)<br>
@@ -32,7 +32,7 @@ No matter how often I come back to this song, it always gives me that same comfo
 
 ![[Pinegrove_Need2.png|150x150]]
 
-### Rose - Pinegrove
+### Pinegrove - Rose
 
 Rating: ★★★★★ (5/5) <br>
 Links: [Soundcloud](https://soundcloud.com/pinegroveband/rose2012) <br>
