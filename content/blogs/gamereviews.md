@@ -18,7 +18,7 @@ Try to use **CTRL+F** to see if the game you're searching for is in the list o
 
 If you're looking for broader media suggestions, don't hesitate to visit the [[mediareqs]] page.
 
-### My hardware
+### My specs
 
 | Components                                          |
 | --------------------------------------------------- |

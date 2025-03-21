@@ -5,7 +5,7 @@ tags:
   - media
 draft: false
 date: 2025-03-09
-modified: 2025-03-20
+modified: 2025-03-21
 ---
 ---  
 ## General Information
@@ -30,6 +30,16 @@ Pinegrove as a band has the remarkable ability to stir emotions within me that o
 The lyrics (only 10 lines!) paired with the charming atmosphere of the song, is able to strike a chord every single time. It really manages to capture the "raw human experience". <br>
 No matter how often I come back to this song, it always gives me that same comforting feeling. 
 
-![[Pinegrove-Need2.png|250]]
+![[Pinegrove_Need2.png|150x150]]
 
+### Rose - Pinegrove
 
+Rating: ★★★★★ (5/5) <br>
+Links: [Soundcloud](https://soundcloud.com/pinegroveband/rose2012) <br>
+Tags: indie rock, americana, experimental, ...
+
+Yes, here’s another song by Pinegrove. I just discovered it yesterday while exploring some material for my previous review. This time, the track dates back to 2012! <br>
+This song captures a similar feeling as "Need 2" does, although it isn't as well-known. 
+I especially love the soothing harmony towards the end, around "No we won't leave this town". It manages to evoke such a nostalgic feeling only Pinegrove is able to create. The exact feeling is quite indescribable. With that being said, I would rate this song a 5/5, without a doubt. I truly wish I could listen to it again for the first time
+
+![[Pinegrove_Rose.jpg|150]]
