@@ -19,24 +19,25 @@ If you enjoy my website, feel free to link it by using my buttons (the two below
 ### My site
 
 My **button [81x31]**:
-- gif format:
-```
-<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/projects/blinkies_webring/myrdin/button.gif"></a>
-```
 - png format:
 ```
 <a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/projects/blinkies_webring/myrdin/button.png"></a>
 ```
-
-My **banner [240x60]**:
 - gif format:
 ```
-<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/projects/blinkies_webring/myrdin/banner.gif"></a>
+<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/projects/blinkies_webring/myrdin/button.gif"></a>
 ```
+
+My **banner [240x60]**:
 - png format:
 ```
 <a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/projects/blinkies_webring/myrdin/banner.png"></a>
 ```
+- gif format:
+```
+<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/projects/blinkies_webring/myrdin/banner.gif"></a>
+```
+
 
 ### Webrings
 
