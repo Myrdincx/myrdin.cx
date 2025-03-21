@@ -21,21 +21,21 @@ If you enjoy my website, feel free to link it by using my buttons (the two below
 My **button [81x31]**:
 - png format:
 ```
-<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/projects/blinkies_webring/myrdin/button.png"></a>
+<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/static/buttons/button.png"></a>
 ```
 - gif format:
 ```
-<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/projects/blinkies_webring/myrdin/button.gif"></a>
+<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/static/buttons/button.gif"></a>
 ```
 
 My **banner [240x60]**:
 - png format:
 ```
-<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/projects/blinkies_webring/myrdin/banner.png"></a>
+<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/static/buttons/banner.png"></a>
 ```
 - gif format:
 ```
-<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/projects/blinkies_webring/myrdin/banner.gif"></a>
+<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/static/buttons/banner.gif"></a>
 ```
 
 
