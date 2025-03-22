@@ -24,6 +24,7 @@ Feel free to add the [RSS Feed](https://myrdin.cx/index.xml) to your RSS reader.
 ##### Webrings and Buttons
 
 **Work in Progress!** - I have to transfer them over from my main site.
+You can access the ones I currently have from the following page: [[webring-button]]
 
 ```
             &&& &&  & &&
