@@ -21,3 +21,12 @@ For now, here's a list of all the plants in my room. I'm not sure about the name
 - Golden Pothos (2x propagated, 1x bigger)
 - Dracena Marginata
 
+```
+<!-- QueryToSerialize: TABLE WITHOUT ID file.link as "Plant List" WHERE contains(file.tags, "#plants") AND file.name != "plantlog" AND draft != true SORT file.name ASC -->
+<!-- SerializedQuery: TABLE WITHOUT ID file.link as "Plant List" WHERE contains(file.tags, "#plants") AND file.name != "plantlog" AND draft != true SORT file.name ASC -->
+
+| Plant List |
+| ---------- |
+<!-- SerializedQuery END -->
+```
+
