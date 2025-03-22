@@ -55,6 +55,6 @@ My **banner [240x60]**:
 
 <a href="https://silly.city/prev?user=myrdin">⥼ prev</a><a href="https://silly.city/">| Silly City |</a><a href="https://silly.city/next?user=myrdin">next ⥽</a>
 
-### Other sites
+### Buttons
 
 **Work in Progress!**
