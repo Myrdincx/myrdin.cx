@@ -19,8 +19,7 @@ If you appreciate this website and would like to share your thoughts, feel free 
 
 ##### Webrings and Buttons
 
-**Work in Progress!** - I have to transfer them over from my main site.
-You can access the ones I currently have from the following page: [[webring-button]]
+This page features a collection of webrings that I am a part of, along with buttons from various other websites: [[webring-button]]
 
 ##### RSS Feed and Sitemap
 

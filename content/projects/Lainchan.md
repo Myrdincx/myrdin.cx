@@ -1,6 +1,6 @@
 ---
-title: Lainchan Webring
-description: The Lainchan webring
+title: Lainring
+description: The Lainchan webring.
 tags: webring
 draft: false
 date: 
