@@ -59,7 +59,7 @@ gif format:
 
 <a href="https://silly.city/prev?user=myrdin">⥼ prev</a><a href="https://silly.city/">| Silly City |</a><a href="https://silly.city/next?user=myrdin">next ⥽</a>
 
-[[Lainchan]] webring (seperate page)
+[[Lainring]] (seperate page)
 
 [![Wired Collective](/media/projects/blinkies_webring/buttons/others/wiredcollectivebutton.png)](https://wiredcollective.neocities.org/webring)
 

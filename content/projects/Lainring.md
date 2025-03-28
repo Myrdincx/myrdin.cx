@@ -1,10 +1,11 @@
 ---
 title: Lainring
 description: The Lainchan webring.
-tags: webring
+tags:
+  - webring
 draft: false
-date: 
-modified:
+date: 2024-11-23
+modified: 2025-03-29
 ---
 ---  
 
