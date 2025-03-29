@@ -1,5 +1,5 @@
 ---
-title: Webrings & Buttons (WIP)
+title: Webrings & Buttons
 description: A collection of webrings, I am a part of and buttons I came across.
 tags:
   - webring
@@ -65,12 +65,10 @@ gif format:
 
 ### Buttons
 
-#### My site
+#### My site - **WIP**
 
 [![Sign My Guestbook](/media/projects/blinkies_webring/buttons/myrdin/sign_my_guestbook.gif)](https://myrdin.atabook.org/)
 [![Made on GNU/Linux](/media/projects/blinkies_webring/buttons/myrdin/madeonlinux.png)](https://fedoraproject.org/)
-
-**WIP**
 
 ##### Other sites
 
