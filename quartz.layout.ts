@@ -37,7 +37,13 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        // set containing names of everything you want to filter out
+        const omit = new Set(["lainring"])
+        return !omit.has(node.displayName.toLowerCase())
+      },
+    }),
   ],
   right: [
     Component.Graph(),
