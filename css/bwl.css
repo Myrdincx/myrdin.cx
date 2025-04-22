@@ -1,0 +1,324 @@
+/* == 2025 Revision == */
+
+/* 
+
+The A-Bomb cracks the Akashic.
+The fallout drifts down like sakura.
+Babalon unveiled is starmarked by it.
+
+...
+
+Angels pouring warlike from the watchtowers, and the
+twenty-four elders of days wondering where their God has gone.
+
+*/
+
+
+/*
+
+	Global Styling, General Stuff.
+
+*/
+@font-face {
+	font-family: "alt";
+	src: url(../fonts/pixel-font7.regular.ttf);
+}
+
+@font-face {
+	font-family: "light";
+	src: url(../fonts/MedodicaRegular.otf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--bgc: #1e1e1e;
+	--textc: #e6dfc9;
+	--empc: #e6dfc9;
+	--brdc: var(--empc);
+	--linkc: rgb(74, 152, 176);
+	--linkv: rgb(101, 198, 196);
+	--hic: hsl(0deg 0% 100% / 26%);
+	--cellgap: 5px;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-snap-type: y proximity;
+	cursor: url(../media/assets/main.png) 0 0, auto;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "light";
+	background: url(../media/assets/background.png);
+	color: var(--textc);
+	/* for firefox */
+	/* scrollbar-width: none;
+    scrollbar-color: var(--empc) black; */
+	background-size: 248px;
+	background-attachment: fixed;
+	/* overflow: hidden; */
+}
+
+/* 
+	Originally for firefox. Turns out CHROME SEES THIS AND OVERRIDES THE WEBKIT STYLING WITH A BROKEN IMPLEMENTATION OF THIS.
+	Firefox users can suck it. Im pretty sure FF has a invisible scrollbar anyways. 
+  
+	* {
+	scrollbar-color: var(--empc) black;
+	scrollbar-width: thin;
+  } 
+*/
+
+/* Hide document scrollbar */
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+/* Only show scrollbar for actual index section */
+div::-webkit-scrollbar {
+	width: 4px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--bgc);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--empc);
+}
+
+::selection {
+	background: var(--hic);
+}
+
+::-moz-selection {
+	background: var(--hic);
+	color: white;
+}
+
+
+a {
+	cursor: url(../media/assets/link.png) 0 0, auto;
+}
+
+a:visited {
+	color: var(--linkv);
+}
+
+
+
+/* 
+	Top Logo Area And Buttons (3 Quick Links)
+*/
+
+#container {
+	position: fixed;
+	top: 40%;
+	z-index: -1;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#h>img {
+	width: 500px;
+	max-width: 95vw;
+	text-align: center;
+}
+
+.buttons {
+	font-size: 3rem;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttons a {
+	display: block;
+	height: 50px;
+}
+
+.buttons a:hover {
+	filter: brightness(80%);
+}
+
+.buttons a:nth-child(2) {
+	transform: translateY(1.5ch);
+}
+
+.buttons a img {
+	height: inherit;
+}
+
+
+
+
+/* 
+
+	Main Index Part.
+	Has annoying levels of containers to make positioning easier.
+	index -> 
+		index grid -> 
+			gc -> 
+				section -> 
+					h1/b
+					flexy
+						a, a, a...
+
+*/
+
+
+#index {
+	background-color: var(--bgc);
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 105vh;
+	min-height: calc(100vh - 2px);
+	border-top: solid 2px #e6dfc9;
+	overflow: auto;
+	scroll-snap-align: start;
+	box-sizing: border-box;
+	height: 100vh;
+	position: relative;
+}
+
+.index-grid {
+	/* Manually pad out room for each box to align with image. */
+	grid-template-rows: 40px 177px 140px 150px 149px 136px 120px;
+	background: url('../media/assets/guardians.png');
+	background-repeat: no-repeat;
+	background-position-y: 60px;
+	display: grid;
+	margin: 0 auto;
+	max-width: 980px;
+	min-height: calc(100vh - 2px);
+	height: 1200px;
+	gap: 10px;
+}
+
+.flexy {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: var(--cellgap);
+	padding-right: 2px;
+	/* align with corner of header */
+}
+
+.flexy a {
+	border: solid 1px #6f7e41;
+	background: var(--bgc);
+	padding: 0.5ch;
+	text-decoration: none;
+	position: relative;
+	color: #C0C0C0;
+	flex-grow: 1;
+	min-width: 20%;
+	font-size: 18px;
+}
+
+.flexy a:hover::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	top: 0;
+	left: 0;
+	color: black;
+	background: #6f7e41;
+}
+
+section {
+	border-left: 1px solid #6f7e41;
+	padding-left: 2px;
+	margin-right: 1vw;
+	margin-left: 300px;
+	background-color: var(--bgc); 	/* clip overlap with bg if needed */
+}
+
+
+/* flexbox for this is nefarious but its the only way to get stuff 
+	reliably positioned cross-platform */
+section h1 {
+	font-weight: normal;
+	margin-bottom: var(--cellgap);
+	display: flex;
+	height: 35px;
+	text-align: left;
+	font-size: 24px;
+	background: var(--bgc);
+}
+
+section h1 b {
+	font-weight: normal;
+	flex-grow: 1;
+	border: solid 1px #6f7e41;
+	border-right: none;
+	height: 35px;
+	align-content: center;
+	padding-left: 5px;
+	align-items: center; /* for safari */
+	display: flex; /* for safari */
+}
+
+section h1::after {
+	content: url('../media/assets/hl.png');
+	display: block;
+	/* transform: translate(1px, 2px); */
+}
+
+/* Invisible spacer element */
+hr.sp {
+	border: none;
+}
+
+#hide {
+	font-size: 3rem; /* ??? */
+	image-rendering: pixelated;
+}
+
+#hide img:hover {
+	filter: brightness(80%);
+}
+
+footer {
+	margin-top: -6ch; /* :) */
+	color: #6f7e41;
+    text-align: center;
+	user-select: none;
+}
+
+/* Scroll snap jank on phones. Disable it. */
+@media (hover: none) and (pointer: coarse) {
+	html {
+		scroll-snap-type: none !important;
+	}
+}
+
+@media (max-width: 675px) {
+	.index-grid {
+		background: none;
+		display: block;
+		height: auto;
+	}
+
+	section {
+		margin-left: 0;
+		margin-bottom: 5ch;
+		margin-right: 3vw;
+		border-left: none;
+	}
+
+	.sp {
+		display: none;
+	}
+
+	footer {
+		display: none;
+	}
+}
