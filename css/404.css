@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "main";
+    src: url('../assets/basis33.ttf');
+}
+
+body {
+	background: url(../media/assets/banner.png);
+    background-size: 2000px;
+	background-attachment: fixed;
+
+}
+
+.blup {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #e6dfc9;
+    font-family: "main";
+    text-align: center;
+    width: 100vw;
+    margin: 0;
+}
