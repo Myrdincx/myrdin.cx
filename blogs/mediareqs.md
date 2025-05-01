@@ -1,11 +1,7 @@
 ---
 title: Media Recommendations
 description: A bunch of things I found online, and want to share my thoughts on.
-tags:
-  - media
-draft: false
 date: 2025-03-09
-modified: 2025-03-21
 ---
 ---  
 ## General Information
