@@ -23,7 +23,7 @@ I should mention, though, that it's more of a work-in-progress file rather than 
 ### Sound inventory
 Eldiad has a somewhat worked out sound inventory, based on the [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet), including a chart with the simplified and written form in Eldiad. 
 
-> [!info] Click on the sounds
+> Click on the sounds <br>
 > That way you'll be able to open a link to wikipedia to hear them!
 
 #### Consonants
