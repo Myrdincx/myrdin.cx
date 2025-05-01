@@ -16,7 +16,7 @@ This includes everything from my favourite songs and books I've enjoyed reading 
 In case this ever becomes a big list of media reviews and recommendations. <br>
 Try to use **CTRL+F** to see if the game you're searching for is in the list or use the Table-of-Contents on the side of the website!
 
-This page does not include game reviews, but you're welcome to visit the [[gamereviews]] page for those.
+This page does not include game reviews, but you're welcome to visit the [page for those](https://myrdin.cx/blog.html?post=gamereviews).
   
 ## Music
 
