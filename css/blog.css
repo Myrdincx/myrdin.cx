@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "main";
+    src: url(../fonts/Robot-Regular.ttf);
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -5,6 +10,11 @@
     background-color: var(--bgc);
     border: solid 2px #6f7e41;
     margin-top: 40px;
+    font-family: 'main', sans-serif;
+}
+
+body {
+    font-family: 'main', sans-serif;
 }
 
 h1 {
