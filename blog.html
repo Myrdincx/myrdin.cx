@@ -39,30 +39,32 @@
     </div>
     
     <script>
+        let postTypeMap = {};
+
         document.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
             const postName = urlParams.get('post');
-            
+
             if (postName) {
                 document.getElementById('blog-post-view').style.display = 'block';
-                loadPost(postName);
+                loadPostIndex().then(() => loadPost(postName));
             } else {
                 document.getElementById('blog-index-view').style.display = 'block';
                 loadPostIndex();
             }
-            
+
             document.getElementById('back-to-index').addEventListener('click', function(e) {
                 e.preventDefault();
                 window.location.href = window.location.pathname;
             });
         });
-        
+
         function loadPost(postName) {
-            fetch(`/posts/${postName}.md`)
+            const type = postTypeMap[postName] || 'blogs'; // fallback if missing
+
+            fetch(`/${type}/${postName}.md`)
                 .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Post not found');
-                    }
+                    if (!response.ok) throw new Error('Post not found');
                     return response.text();
                 })
                 .then(markdown => {
@@ -85,11 +87,7 @@
                     
                     document.title = `~ ↟ myrdin/blog/${title} ↟ ~`;
                     document.getElementById('blog-title').textContent = title;
-                    
-                    if (date) {
-                        document.getElementById('blog-metadata').textContent = `Published: ${date}`;
-                    }
-                    
+                    document.getElementById('blog-metadata').textContent = date ? `Published: ${date}` : '';
                     document.getElementById('blog-content').innerHTML = marked.parse(content);
                 })
                 .catch(error => {
@@ -98,45 +96,58 @@
                     document.getElementById('blog-content').innerHTML = `<p>Sorry, the post "${postName}" could not be found.</p>`;
                 });
         }
-        
-        function loadPostIndex() {
-            fetch('/posts/index.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Could not load blog index');
-                    }
-                    return response.json();
-                })
-                .then(posts => {
-                    const postsContainer = document.getElementById('posts-container');
-                    
-                    if (posts.length === 0) {
-                        postsContainer.innerHTML = '<p>No posts available yet.</p>';
-                        return;
-                    }
-                    
-                    // Sort posts by date (newest first)
-                    posts.sort((a, b) => new Date(b.date) - new Date(a.date));
-                    
-                    // Create HTML for each post
-                    const postsHTML = posts.map(post => `
+
+        async function loadPostIndex() {
+            try {
+                const response = await fetch('/index.json');
+                if (!response.ok) throw new Error('Could not load blog index');
+
+                const posts = await response.json();
+                const postsContainer = document.getElementById('posts-container');
+                if (posts.length === 0) {
+                    postsContainer.innerHTML = '<p>No posts available yet.</p>';
+                    return;
+                }
+
+                postTypeMap = Object.fromEntries(posts.map(post => [post.slug, post.type]));
+
+                posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+                const groups = {};
+                for (const post of posts) {
+                    if (!groups[post.type]) groups[post.type] = [];
+                    groups[post.type].push(post);
+                }
+
+                let html = '';
+                const typeLabels = {
+                    blogs: 'Blog Posts',
+                    articles: 'Articles',
+                    projects: 'Projects'
+                };
+
+                for (const [type, group] of Object.entries(groups)) {
+                    html += `<h2>${typeLabels[type] || type}</h2><div class="blog-list">`;
+                    html += group.map(post => `
                         <div class="blog-item">
-                            <h2><a href="?post=${post.slug}">${post.title}</a></h2>
+                            <h3><a href="?post=${post.slug}">${post.title}</a></h3>
                             <span class="date">${post.date}</span>
                             <div class="excerpt">${post.excerpt}</div>
                             <a href="?post=${post.slug}">Read more →</a>
                         </div>
                     `).join('');
-                    
-                    postsContainer.innerHTML = `<div class="blog-list">${postsHTML}</div>`;
-                })
-                .catch(error => {
-                    console.error('Error loading blog index:', error);
-                    document.getElementById('posts-container').innerHTML = `
-                        <p>Failed to load blog posts. Please try again later.</p>
-                        <p>Error: ${error.message}</p>
-                    `;
-                });
+                    html += '</div>';
+                }
+
+                postsContainer.innerHTML = html;
+
+            } catch (error) {
+                console.error('Error loading blog index:', error);
+                document.getElementById('posts-container').innerHTML = `
+                    <p>Failed to load blog posts. Please try again later.</p>
+                    <p>Error: ${error.message}</p>
+                `;
+            }
         }
     </script>
 </body>

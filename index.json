@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "mediareqs",
+    "title": "Media Recommendations",
+    "date": "2025-03-09",
+    "excerpt": "A bunch of things I found online, and want to share my thoughts on.",
+    "type": "blogs"
+  },
+  {
+    "slug": "gamereviews",
+    "title": "Game Reviews",
+    "date": "2024-11-10",
+    "excerpt": "I have a few games in mind that I'd like to share my thoughts on.",
+    "type": "blogs"
+  },
+  {
+    "slug": "bear",
+    "title": "The Fascinating History of the Word \"Bear\"",
+    "date": "2025-01-27",
+    "excerpt": "A brief exploration of the word \"bear\" from a linguistics perspective.",
+    "type": "articles"
+  },
+  {
+    "slug": "eldiad",
+    "title": "Eldiad",
+    "date": "2025-03-30",
+    "excerpt": "An in-depth look at the Eldiad project.",
+    "type": "projects"
+  }
+]
