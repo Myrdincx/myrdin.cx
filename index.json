@@ -21,6 +21,13 @@
     "type": "articles"
   },
   {
+    "slug": "plantlog",
+    "title": "Plantlog",
+    "date": "2025-01-27",
+    "excerpt": "A list of the plants I have",
+    "type": "blogs"
+  },  
+  {
     "slug": "eldiad",
     "title": "Eldiad",
     "date": "2025-03-30",
