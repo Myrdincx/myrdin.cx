@@ -1,0 +1,139 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--bgc);
+    border: solid 2px #6f7e41;
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.back-link {
+    display: block;
+    margin-top: 2em;
+    text-align: center;
+}
+
+/* Blog index styles */
+.blog-list {
+    list-style: none;
+}
+
+.blog-item {
+    border: solid 1px #6f7e41;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: all 0.2s ease;
+}
+
+.blog-item:hover {
+    background-color: rgba(111, 126, 65, 0.1);
+}
+
+.blog-item h2 {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.blog-item .date {
+    color: #c0c0c0;
+    font-style: italic;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.blog-item .excerpt {
+    margin-bottom: 10px;
+}
+
+.blog-item a {
+    color: var(--linkc);
+    text-decoration: none;
+}
+
+.blog-item a:hover {
+    text-decoration: underline;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #c0c0c0;
+}
+
+/* Blog post styles */
+.blog-container {
+    text-align: left;
+}
+
+.blog-metadata {
+    margin-bottom: 2em;
+    text-align: center;
+    font-style: italic;
+    color: #c0c0c0;
+}
+
+.blog-content {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.blog-content p {
+    margin-bottom: 1em;
+}
+
+.blog-content h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.blog-content h3 {
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.blog-content a {
+    color: var(--linkc);
+    text-decoration: underline;
+}
+
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
+.blog-content blockquote {
+    border-left: 3px solid #6f7e41;
+    padding-left: 1em;
+    margin-left: 0;
+    color: #c0c0c0;
+}
+
+.blog-content pre {
+    background: #2a2a2a;
+    padding: 1em;
+    overflow-x: auto;
+    border: 1px solid #6f7e41;
+}
+
+.blog-content code {
+    background: #2a2a2a;
+    padding: 0.2em 0.4em;
+}
+
+#blog-index-view, #blog-post-view {
+    display: none;
+}

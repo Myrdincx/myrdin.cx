@@ -15,9 +15,7 @@
 <body>
 	<div id="container">
         <a id="h" href="https://myrdin.cx">
-            
-        <img src="media/assets/boom.png">
-                                                                                                    
+            <img src="media/assets/boom.png">
         </a>
         <div class="buttons">
             <a href="LOGIN PAGINA!!">
@@ -47,19 +45,13 @@
 			<div class="gc">
 				<section>
 					<h1><b>blogs</b></h1>
-					<div class="flexy">
-						<a href="/blogs/gamereviews.md">Game Reviews (soon)</a>
-						<a href="/blogs/mediareqs.md">Media Recommendations (soon)</a>
-						<a href="/blogs/plantlog.md">Plant Log (soon)</a>
-					</div>
+					<div class="flexy" id="blogs-list"></div>
 				</section>
 			</div>
 			<div class="gc">
 				<section>
 					<h1><b>projects</b></h1>
-					<div class="flexy">
-						<a href="/projects/Eldiad.md">Eldiad:my first conlang (soon)</a>
-					</div>
+					<div class="flexy" id="projects-list"></div>
 				</section>
 			</div>
 			<div class="gc">
@@ -75,12 +67,8 @@
 			<hr class="sp">
 			<div class="gc">
 				<section>
-					<h1><b>galleries</b></h1>
-					<div class="flexy">
-						<a href="HIER EEN FOTOGRAFIE PAGINA">photography (soon)</a>
-						<a href="https://drive.google.com/drive/folders/11VN_RiQmOUaqVb0sFoFggtJIKYtGgWFj?usp=sharing">drive::posters (for now on Google Drive)</a>
-						<a href="https://www.pinterest.com/myrdincx/_created/" target="_blank">pinterest</a>
-					</div>
+					<h1><b>articles</b></h1>
+					<div class="flexy" id="articles-list"></div>
 				</section>
 			</div>
 		</div>
@@ -89,6 +77,30 @@
 		</footer>
 	</div>
 
+	<script>
+		window.addEventListener('DOMContentLoaded', () => {
+			fetch('/index.json')
+				.then(res => res.json())
+				.then(posts => {
+					const groups = {
+						blogs: document.getElementById('blogs-list'),
+						articles: document.getElementById('articles-list'),
+						projects: document.getElementById('projects-list')
+					};
 
+					for (const post of posts) {
+						const container = groups[post.type];
+						if (!container) continue;
 
+						const link = document.createElement('a');
+						link.href = `/blog.html?post=${post.slug}`;
+						link.textContent = post.title;
+						container.appendChild(link);
+					}
+				})
+				.catch(err => {
+					console.error('Failed to load index.json:', err);
+				});
+		});
+	</script>
 </body></html>
