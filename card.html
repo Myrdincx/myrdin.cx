@@ -101,7 +101,7 @@
 				const ima = document.getElementById('desc');
 				let musicstatus = document.createElement('a')
 				musicstatus.className = 'music-status'
-				musicstatus.href = 'https://www.last.fm/user/myrdincx'
+				musicstatus.href = 'https://open.spotify.com/user/i1yly8kh8edp57h78r4flk797'
 				musicstatus.innerText = `${json.track['@attr'] && json.track['@attr']['nowplaying'] ? 'Currently' : 'Was last'} listening to ${json.track.name} by ${json.track['artist']['#text']}`
 				ima.after(musicstatus)
 
@@ -109,7 +109,7 @@
 				cover.src = json.track.image[1]['#text']
 				musicstatus.prepend(cover);
 
-				musicstatus.addEventListener('mouseover', () => {showTooltip('Click to view my LastFM profile.')});
+				musicstatus.addEventListener('mouseover', () => {showTooltip('Click to view my Spotify profile.')});
    				musicstatus.addEventListener('mouseout', hideTooltip)
 			})()
 	</script>
