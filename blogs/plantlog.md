@@ -5,8 +5,9 @@ date: 2025-03-21
 ---
 ---  
 
-**Work in Progress** - will update later. <br>
-For now, here's a list of all the plants in my room. I'm not sure about the name for some of them:
+> **Work in Progress** - will update later. <br>
+> For now, here's a list of all the plants in my room. I'm not sure about the name for some of them.
+
 - Ficus Elastica
 - Common Ivy
 - Carex(?) (2x)
