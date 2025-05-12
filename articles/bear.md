@@ -7,7 +7,7 @@ date: 2025-01-27
 ## The Fascinating History of the Word "Bear"
 
 > **INFO** <br>
-> This article needs to be rewritten at some point!
+> This article needs to be rewritten, some parts may be unclear or poorly written.
 
 The English word **bear** has an intriguing history, rooted in fear, mythology, and a fascinating linguistic evolution. It derives from the Old English *bera*, which shares common ancestry with the names for bears in other Germanic languages, such as the (modern) Swedish term *björn* or the Dutch term *beer*.
 
