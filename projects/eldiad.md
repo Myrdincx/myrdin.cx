@@ -27,6 +27,8 @@ Eldiad has a partially developed sound system, based on the [International Phone
 
 > **Tip:** Click on a sound to open a Wikipedia page where you can hear it.
 
+<br>
+
 #### Consonants
 
 |             | (Bi)labial | Dental | Alveolar-Central | Alveolar-Lateral | Retroflex | Post-alveolar | Velar | Uvular | Glottal |
@@ -39,6 +41,7 @@ Eldiad has a partially developed sound system, based on the [International Phone
 
 
 - \*The label “liquid” is used here informally to simplify categories.
+<br>
 
 #### Vowels
 
@@ -50,7 +53,7 @@ Eldiad has a partially developed sound system, based on the [International Phone
 
 
 - Diphthong [ɛj](https://en.wiktionary.org/wiki/ej) can also appear in certain words but isn't placed in the main chart.
-
+<br>
 
 ---
 
@@ -64,7 +67,7 @@ Eldiad follows a **verb–subject–object** structure with optional adjectives 
 | seheura-e'j | bra'ach     | ju peuri     | bra'ach     | ju dacha     |
 
 - **“ju”** is the only article in Eldiad.
-
+<br>
 
 ---
 
