@@ -37,6 +37,7 @@ Eldiad has a partially developed sound system, based on the [International Phone
 | **Nasal**   | [m](https://en.wikipedia.org/wiki/Voiced_bilabial_nasal) | — | [n](https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_nasals) | — | — | — | [ŋ](https://en.wikipedia.org/wiki/Voiced_velar_nasal) | — | — |
 | **Liquid\*** | — | — | — | [l](https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_lateral_approximants) | — | [j](https://en.wikipedia.org/wiki/Voiced_palatal_approximant) | [w](https://en.wikipedia.org/wiki/Voiced_labial) | [ʀ](https://en.wikipedia.org/wiki/Voiced_uvular_trill) | — |
 
+
 - \*The label “liquid” is used here informally to simplify categories.
 
 #### Vowels
@@ -46,6 +47,7 @@ Eldiad has a partially developed sound system, based on the [International Phone
 | **Close** | [i](https://en.wikipedia.org/wiki/Close_front_unrounded_vowel), i: | [y](https://en.wikipedia.org/wiki/Close_front_rounded_vowel) | — | — | — | [u](https://en.wikipedia.org/wiki/Close_back_rounded_vowel), u: |
 | **Mid**   | [e](https://en.wikipedia.org/wiki/Close-mid_front_unrounded_vowel), [ɛ](https://en.wikipedia.org/wiki/Open-mid_front_unrounded_vowel)(:) | [ø](https://en.wikipedia.org/wiki/Close-mid_front_rounded_vowel), [œ](https://en.wikipedia.org/wiki/Open-mid_front_rounded_vowel) | — | — | — | [o](https://en.wikipedia.org/wiki/Close-mid_back_rounded_vowel), o: |
 | **Open**  | — | — | [a](https://en.wikipedia.org/wiki/Open_front_unrounded_vowel), a: | — | [ɑ](https://en.wikipedia.org/wiki/Open_back_unrounded_vowel) | — |
+
 
 - Diphthong [ɛj](https://en.wiktionary.org/wiki/ej) can also appear in certain words but isn't placed in the main chart.
 
