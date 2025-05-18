@@ -48,7 +48,7 @@ Eldiad has a partially developed sound system, based on the [International Phone
 | **Open**  | — | — | [a](https://en.wikipedia.org/wiki/Open_front_unrounded_vowel), a: | — | [ɑ](https://en.wikipedia.org/wiki/Open_back_unrounded_vowel) | — |
 
 - Diphthong [ɛj](https://en.wiktionary.org/wiki/ej) can also appear in certain words but isn't placed in the main chart.
-
+<br>
 ---
 
 ### Syntax
@@ -61,7 +61,7 @@ Eldiad follows a **verb–subject–object** structure with optional adjectives 
 | seheura-e'j | bra'ach     | ju peuri     | bra'ach     | ju dacha     |
 
 - **“ju”** is the only article in Eldiad.
-
+<br>
 ---
 
 ### Grammar
@@ -86,7 +86,7 @@ Plural is formed simply by adding the suffix `-ra`.
 |--------|--------|------------|
 | dacha  | -ra    | dacha-ra   |
 | animal | -s     | animals    |
-
+<br>
 ---
 
 ## Work in Progress (?)
