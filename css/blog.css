@@ -147,3 +147,41 @@ h1 {
 #blog-index-view, #blog-post-view {
     display: none;
 }
+
+/* EXTRA TEST */
+
+.blog-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 15px;
+    background-color: #1e1e1e;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.blog-content thead {
+    background-color: #2b2b2b;
+    color: #d0d0d0;
+}
+
+.blog-content th,
+.blog-content td {
+    border: 1px solid #6f7e41;
+    padding: 0.6em 0.9em;
+    text-align: left;
+}
+
+.blog-content th {
+    font-weight: bold;
+}
+
+.blog-content tbody tr:nth-child(even) {
+    background-color: rgba(111, 126, 65, 0.08); /* subtle row striping */
+}
+
+.blog-content tbody tr:hover {
+    background-color: rgba(111, 126, 65, 0.15); /* highlight row on hover */
+}
+
