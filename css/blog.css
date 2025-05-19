@@ -125,6 +125,22 @@ h1 {
     margin: 1em auto;
 }
 
+/* Alignment based on title attribute */
+.blog-content img[title="left"] {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.blog-content img[title="right"] {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.blog-content img[title="center"] {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .blog-content blockquote {
     border-left: 3px solid #6f7e41;
     padding-left: 1em;
@@ -184,4 +200,5 @@ h1 {
 .blog-content tbody tr:hover {
     background-color: rgba(111, 126, 65, 0.15); /* highlight row on hover */
 }
+
 

@@ -32,7 +32,7 @@ The bear’s imposing presence has left its mark on our language, culture, and l
 
 [^1]: _Poetic compounds or poetic kenning: a compound expression in Old English and Old Norse poetry with metaphorical meaning, e.g., **hronrad** (whale road) meaning "sea."_
 
-<img src="/media/articles/bear/bear.jpg" alt="bear">
+<img src="/media/articles/bear/bear.jpg" alt="bear" title="left">
 
 
 ---
