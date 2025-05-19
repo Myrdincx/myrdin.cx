@@ -120,3 +120,4 @@ Currently, Eldiad has only about 18 words. Expanding the lexicon would enable re
 I appreciate the current simplicity, but I might consider adding more grammatical constructions later.
 
 ---
+Sharecode: [https://myrdin.cx/blog.html?post=eldiad](https://myrdin.cx/blog.html?post=eldiad)
