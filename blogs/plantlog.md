@@ -4,6 +4,7 @@ description: I need to keep track of my plants, so I made this log.
 date: 2025-03-21
 ---
 ---  
+<br>
 
 > **Work in Progress** - will update later. <br>
 > For now, here's a list of all the plants in my room. I'm not sure about the name for some of them.

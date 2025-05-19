@@ -26,7 +26,7 @@ Pinegrove as a band has the remarkable ability to stir emotions within me that o
 The lyrics (only 10 lines!) paired with the charming atmosphere of the song, is able to strike a chord every single time. It really manages to capture the "raw human experience". <br>
 No matter how often I come back to this song, it always gives me that same comforting feeling. 
 
-![[Pinegrove_Need2.jpg|150x150]]
+<img src="/media/blogs/mediareqs/Pinegrove_Need2.jpg" alt="Pinegrove - Need 2" title="left" width="150" height="150">
 
 ### Pinegrove - Rose
 
@@ -38,4 +38,4 @@ Yes, here’s another song by Pinegrove. I just discovered it yesterday while ex
 This song captures a similar feeling as "Need 2" does, although it isn't as well-known. 
 I especially love the soothing harmony towards the end, around "No we won't leave this town". It manages to evoke such a nostalgic feeling only Pinegrove is able to create. The exact feeling is quite indescribable. With that being said, I would rate this song a 5/5, without a doubt. I truly wish I could listen to it again for the first time
 
-![[Pinegrove_Rose.jpg|150]]
+<img src="/media/blogs/mediareqs/Pinegrove_Rose.jpg" alt="Pinegrove - Rose" title="left" width="150" height="150">
