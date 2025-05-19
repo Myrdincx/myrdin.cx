@@ -13,8 +13,11 @@ In case this ever becomes a big list of media reviews and recommendations. <br>
 Try to use **CTRL+F** to see if the game you're searching for is in the list or use the Table-of-Contents on the side of the website!
 
 This page does not include game reviews, but you're welcome to visit the [page for those](https://myrdin.cx/blog.html?post=gamereviews).
-  
+
+---
+
 ## Music
+
 
 ### Pinegrove - Need 2
 
@@ -27,6 +30,8 @@ The lyrics (only 10 lines!) paired with the charming atmosphere of the song, is 
 No matter how often I come back to this song, it always gives me that same comforting feeling. 
 
 <img src="/media/blogs/mediareqs/Pinegrove_Need2.jpg" alt="Pinegrove - Need 2" title="left" width="150" height="150">
+
+---
 
 ### Pinegrove - Rose
 
