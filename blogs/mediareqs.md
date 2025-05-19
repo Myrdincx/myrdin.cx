@@ -39,3 +39,6 @@ This song captures a similar feeling as "Need 2" does, although it isn't as well
 I especially love the soothing harmony towards the end, around "No we won't leave this town". It manages to evoke such a nostalgic feeling only Pinegrove is able to create. The exact feeling is quite indescribable. With that being said, I would rate this song a 5/5, without a doubt. I truly wish I could listen to it again for the first time
 
 <img src="/media/blogs/mediareqs/Pinegrove_Rose.jpg" alt="Pinegrove - Rose" title="left" width="150" height="150">
+
+---
+Sharecode: [https://myrdin.cx/blog.html?post=mediareqs](https://myrdin.cx/blog.html?post=mediareqs)

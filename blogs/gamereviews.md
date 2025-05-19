@@ -55,3 +55,5 @@ This breathtaking game can be enjoyed both in singleplayer and co-op.
 The stunning visuals, a rewarding difficulty of gameplay, challenges and the ability to play this for hours on end make this an absolute recommendation. This game runs really smoothly, even on linux! I mostly enjoy this game together with friends, running around the various maps (DLC's) and hunting whatever we find :) 
 
 
+---
+Sharecode: [https://myrdin.cx/blog.html?post=gamereviews](https://myrdin.cx/blog.html?post=gamereviews)
