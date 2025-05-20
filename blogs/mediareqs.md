@@ -4,12 +4,6 @@ description: A bunch of things I found online, and want to share my thoughts on.
 date: 2025-03-09
 ---
 ---  
-
-<meta content="~ ↟ myrdin/blog/media recommendations ↟ ~" property="og:title">
-<meta content="~ Some forms of media I recommend! ~" property="og:description">
-<meta content="/media/assets/pfp.png" property="og:image">
-<meta name="theme-color" content="#6f7e41">
-
 ## General Information
 
 I’d love to share with you the various types of media that I enjoy.

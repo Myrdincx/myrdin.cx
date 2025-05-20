@@ -4,12 +4,6 @@ description: A brief exploration of the word "bear" from a linguistics perspecti
 date: 2025-01-27
 ---
 ---  
-
-<meta content="~ ↟ myrdin/articles/The Fascinating History of the Word "Bear" ↟ ~" property="og:title">
-<meta content="~ A brief exploration of the word "bear" from a linguistics perspective. ~" property="og:description">
-<meta content="/media/assets/pfp.png" property="og:image">
-<meta name="theme-color" content="#6f7e41">
-
 ## The Fascinating History of the Word "Bear"
 
 > **INFO** <br>

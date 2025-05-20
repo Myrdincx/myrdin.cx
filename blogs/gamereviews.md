@@ -4,12 +4,6 @@ description: I have a few games in mind that I'd like to share my thoughts on.
 date: 2025-03-14
 ---
 ---  
-
-<meta content="~ ↟ myrdin/blog/game reviews ↟ ~" property="og:title">
-<meta content="~ My opinion on a couple of games! ~" property="og:description">
-<meta content="/media/assets/pfp.png" property="og:image">
-<meta name="theme-color" content="#6f7e41">
-
 ## General Information
 
 This is my personal opinion for each of the games!
