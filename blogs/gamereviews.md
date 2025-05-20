@@ -2,6 +2,13 @@
 title: Game Reviews
 description: I have a few games in mind that I'd like to share my thoughts on.
 modified: 2025-03-14
+
+# voor discord
+<meta content="~ ↟ myrdin/blog/game reviews ↟ ~" property="og:title">
+<meta content="~ My opinion on a couple of games! ~" property="og:description">
+<meta content="/media/assets/pfp.png" property="og:image">
+<meta name="theme-color" content="#6f7e41">
+
 ---
 ---  
 ## General Information
