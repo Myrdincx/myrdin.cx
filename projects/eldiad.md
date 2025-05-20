@@ -2,14 +2,12 @@
 title: Eldiad - My First Conlang
 description: Eldiad is an unfinished conlang based on a few Western- and Northern-European languages.
 date: 2024-10-09
+---
 
-# voor discord
 <meta content="~ ↟ myrdin/projects/Eldiad - My First Conlang ↟ ~" property="og:title">
 <meta content="~ Eldiad is an unfinished conlang based on a few Western- and Northern-European languages. ~" property="og:description">
 <meta content="/medimedia/assets/pfp.png" property="og:image">
 <meta name="theme-color" content="#6f7e41">
-
----
 
 # Eldiad
 
