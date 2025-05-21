@@ -83,6 +83,15 @@ h1 {
     text-align: left;
 }
 
+#posts-container h2 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-size: 28px;
+    font-weight: normal;
+    border-bottom: 1px solid #6f7e41;
+    padding-bottom: 0.3em;
+}
+
 .blog-metadata {
     margin-bottom: 2em;
     text-align: center;
