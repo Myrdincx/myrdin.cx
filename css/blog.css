@@ -173,7 +173,7 @@ h1 {
     display: none;
 }
 
-/* EXTRA TEST */
+/* TABLES */
 
 .blog-content table {
     width: 100%;
@@ -209,5 +209,3 @@ h1 {
 .blog-content tbody tr:hover {
     background-color: rgba(111, 126, 65, 0.15); /* highlight row on hover */
 }
-
-
