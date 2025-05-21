@@ -85,7 +85,7 @@
                         if (dateMatch) date = dateMatch[1].trim();
                     }
                     
-                    document.title = `~ ↟ myrdin/blog/${title} ↟ ~`;
+                    document.title = `~ ↟ myrdin/${title} ↟ ~`;
                     document.getElementById('blog-title').textContent = title;
                     document.getElementById('blog-metadata').textContent = date ? `Published: ${date}` : '';
                     document.getElementById('blog-content').innerHTML = marked.parse(content);
