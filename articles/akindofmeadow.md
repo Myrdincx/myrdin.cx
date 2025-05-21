@@ -8,7 +8,8 @@ date: 2025-05-21
 <br>
 
 > **INFORMATION** <br>
-> I wrote this essay for my English literature course, and while it offers one interpretation of 'A Kind of Meadow', it's important to remember that there are many other ways to interpret this poem!
+> I wrote this essay for my English literature course, and while it offers one interpretation of 'A Kind of Meadow', it's important to remember that there are many other ways to interpret this poem! <br>
+> Do please keep in mind that this essay is far from perfect and probably still requires a lot of changes. :)
 
 ---
 
