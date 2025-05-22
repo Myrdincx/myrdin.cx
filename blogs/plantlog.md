@@ -20,5 +20,7 @@ date: 2025-03-21
 - Coleus (3x: green/yellow, full red, red/green)
 - Ficus Lyrata Bambino
 
+<br>
+
 ---
 Sharecode: [https://myrdin.cx/blog.html?post=plantlog](https://myrdin.cx/blog.html?post=plantlog)
