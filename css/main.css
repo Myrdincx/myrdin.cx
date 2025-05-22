@@ -174,7 +174,7 @@ a:visited {
 .index-grid {
 	/* Manually pad out room for each box to align with image. */
 	grid-template-rows: 40px 177px 140px 150px 149px 136px 120px;
-	background: url('../media/assets/guardians.png');
+	background: url('../media/assets/beekeeper.png');
 	background-repeat: no-repeat;
 	background-position-y: 60px;
 	display: grid;
