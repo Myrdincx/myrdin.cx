@@ -7,18 +7,24 @@ date: 2025-03-21
 <br>
 
 > **Work in Progress** - will update later. <br>
-> For now, here's a list of all the plants in my room. I'm not sure about the name for some of them.
+> This is the current list of plants in my room, along with a picture. <br>
+> I will add more information for each one of them later on.
 
-- Ficus Elastica
-- Common Ivy
-- Carex(?) (2x)
-- Pilea peperomioidest
-- Satin Pothos
-- Philodendron Hederaceum/Heartleaf Hederaceum 
-- Golden Pothos (2x propagated, 1x bigger)
-- Dracena Marginata
-- Coleus (3x: green/yellow, full red, red/green)
-- Ficus Lyrata Bambino
+| IMAGE                            | PLANT NAME     | EXTRA INFORMATION |
+| -------------------------------- | -------------- | ----------------- |
+| <img src="/media/blogs/plants/Ficus Elastica.jpg" alt="Ficus Elastica" width="150px"> | Ficus Elastica | Doing okay       |
+| <img src="/media/blogs/plants/Common Ivy.jpg" alt="Common Ivy" width="150px"> | Common Ivy | Doing okay        |
+| <img src="/media/blogs/plants/2x_Carex.jpg" alt="Common Ivy" width="250"> | Carex | Both doing okay        |
+| <img src="/media/blogs/plants/Pilea Peperomioides.jpg" alt="Pilea peperomioidest" width="150"> | Pilea peperomioidest | Both doing okay        |
+| <img src="/media/blogs/plants/Satin Pothos.jpg" alt="Satin Pothos" width="150"> | Satin Pothos | Doing okay        |
+| <img src="/media/blogs/plants/Philodendron Hederaceum.jpg" alt="Philodendron Hederaceum" width="150"> | Philodendron Hederaceum | Doing okay        |
+| <img src="/media/blogs/plants/Golden Pothos.jpg" alt="Golden Pothos" width="150"> | Golden Pothos | Doing okay        |
+| <img src="/media/blogs/plants/Golden Pothos_propegated.jpg" alt="Golden Pothos" width="250"> | Golden Pothos | Propegating        |
+| <img src="/media/blogs/plants/Dracena Marginata.jpg" alt="Dracena Marginata" width="150"> | Dracena Marginata | Doing okay        |
+| <img src="/media/blogs/plants/Coleus_green.jpg" alt="Coleus Green" width="150"> | Coleus (Green) | Doing okay        |
+| <img src="/media/blogs/plants/Coleus_green⁄red.jpg" alt="Coleus Green/Red" width="150"> | Coleus (Green/Red) | Doing okay        |
+| <img src="/media/blogs/plants/Coleus_red.jpg" alt="Coleus Red" width="150"> | Coleus (Red) | Barely holding on..        |
+| <img src="/media/blogs/plants/Ficus Lyrata Bambino.jpg" alt="Ficus Lyrata Bambino" width="150"> | Ficus Lyrata Bambino | Doing okay        |
 
 <br>
 
