@@ -21,8 +21,8 @@ date: 2025-03-21
 | <img src="/media/blogs/plants/Golden Pothos.jpg" alt="Golden Pothos" width="150"> | Golden Pothos | Doing okay        |
 | <img src="/media/blogs/plants/Golden Pothos_propegated.jpg" alt="Golden Pothos" width="250"> | Golden Pothos | Propegating        |
 | <img src="/media/blogs/plants/Dracena Marginata.jpg" alt="Dracena Marginata" width="150"> | Dracena Marginata | Doing okay        |
-| <img src="/media/blogs/plants/Coleus_green.jpg" alt="Coleus Green" width="150"> | Coleus (Green) | Not doing so well         |
-| <img src="/media/blogs/plants/Coleus_green⁄red.jpg" alt="Coleus Green/Red" width="150"> | Coleus (Green/Red) | Not doing so well        |
+| <img src="/media/blogs/plants/Coleus_green.jpg" alt="Coleus Green" width="150"> | Coleus (Green) | Doing terribly :(         |
+| <img src="/media/blogs/plants/Coleus_green⁄red.jpg" alt="Coleus Green/Red" width="150"> | Coleus (Green/Red) | Doing terribly :(        |
 | <img src="/media/blogs/plants/Coleus_red.jpg" alt="Coleus Red" width="150"> | Coleus (Red) | Died :(        |
 | <img src="/media/blogs/plants/Ficus Lyrata Bambino.jpg" alt="Ficus Lyrata Bambino" width="150"> | Ficus Lyrata Bambino | Doing okay        |
 
