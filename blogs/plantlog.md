@@ -6,7 +6,7 @@ date: 2025-03-21
 ---  
 <br>
 
-> **Work in Progress** - will update later. <br>
+> **Work in Progress** - I will update this later on. <br>
 > This is the current list of plants in my room, along with a picture. <br>
 > I will add more information for each one of them later on.
 
