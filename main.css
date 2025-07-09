@@ -1,0 +1,170 @@
+    /* ========== Base Styles ========== */
+    * {
+      font-family: monospace;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    /* ========== Theme Toggle ========== */
+    .toggle-theme {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      font-size: 14px;
+      z-index: 9999;
+      color: #f3dfc1;
+    }
+
+    .toggle-theme label {
+      cursor: pointer;
+      font-weight: normal;
+      text-decoration: none;
+    }
+
+    #light:checked ~ .toggle-theme label[for="light"],
+    #dark:checked ~ .toggle-theme label[for="dark"] {
+      text-decoration: underline;
+    }
+
+    #light:checked ~ .toggle-theme {
+      color: #1a1c1a;
+    }
+
+    /* ========== Theme Wrapper ========== */
+    .theme-wrapper {
+      min-height: 100vh;
+      width: 100%;
+      background-color: #1e1e1e;
+      color: #f3dfc1;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #light:checked ~ .theme-wrapper {
+      background-color: #f3dfc1;
+      color: #1a1c1a;
+    }
+
+    /* ========== Layout: Main Container ========== */
+    #main {
+      font-size: 12px;
+      width: 600px;
+      margin: auto;
+      padding: 40px 0;
+      background-color: inherit;
+      text-align: left;
+    }
+
+    /* ========== Layout: Content Containers ========== */
+    #general,
+    #me,
+    #blog-container,
+    #blog-container-full {
+      font-size: 12px;
+      margin: 0 auto;
+    }
+
+    #general,
+    #me,
+    #blog-container-full {
+      width: 600px;
+    }
+
+    #blog-container {
+      width: 450px;
+    }
+
+    #nav-container,
+    #nav-blog-container {
+      text-align: center;
+      margin: 50px auto 0;
+      font-size: 12px;
+      word-spacing: 50px;
+      width: 600px;
+      padding: 5px;
+    }
+
+    #nav-blog-container {
+      word-spacing: 40px;
+    }
+
+    /* ========== Top Banner ========== */
+    #the-top {
+      width: 399px;
+      height: 147px;
+      margin: 75px auto 0;
+      position: relative;
+    }
+
+    #the-top img {
+      position: absolute;
+      left: 0;
+      text-align: center;
+      transition: opacity 0.7s ease-in-out;
+    }
+
+    #the-top img.t:hover {
+      opacity: 0;
+    }
+
+    /* ========== Links ========== */
+    .theme-wrapper a.link {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 12px;
+      padding: 5px;
+      text-decoration: none;
+    }
+
+    .theme-wrapper a.link:link,
+    .theme-wrapper a.link:visited {
+      color: #f3dfc1;
+    }
+
+    .theme-wrapper a.link:hover {
+      color: #778745;
+      transform: scale(1.2);
+    }
+
+    .theme-wrapper a.link:active {
+      color: #778745;
+    }
+
+    #light:checked ~ .theme-wrapper a.link:link,
+    #light:checked ~ .theme-wrapper a.link:visited {
+      color: #1a1c1a;
+    }
+
+    #light:checked ~ .theme-wrapper a.link:hover,
+    #light:checked ~ .theme-wrapper a.link:active {
+      color: #778745;
+    }
+
+    /* ========== Typography Accents ========== */
+    .theme-wrapper b,
+    .theme-wrapper h3 {
+      color: #778745;
+    }
+
+    #light:checked ~ .theme-wrapper b,
+    #light:checked ~ .theme-wrapper h3 {
+      color: #778745;
+    }
+
+    /* ========== Profile Image ========== */
+    #profile-img {
+      border: none;
+    }
+
+    #light:checked ~ .theme-wrapper #profile-img {
+      border: none;
+    }

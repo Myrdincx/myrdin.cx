@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>myrdin // about me</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="media/assets/pfp.png">
+  <style>
+
+  </style>
+</head>
+<body>
+  <input type="radio" name="theme" id="dark" checked>
+  <input type="radio" name="theme" id="light">
+
+  <div class="toggle-theme">
+    [ <label for="dark">⏾</label> / <label for="light">☀︎</label> ]
+  </div>
+
+  <div class="theme-wrapper">
+    <div id="main">
+      <table width="600px" style="text-align: center;">
+        <tr>
+          <td><a class="link" href="about.html">about</a></td>
+          <td><a class="link" href="links.html">links</a></td>
+          <td><a class="link" href="blog.html">blogs</a></td>
+          <td><a class="link" href="projects.html">projects</a></td>
+          <td><a class="link" href="articles.html">articles</a></td>
+          <td><a class="link" href="photos.html">photos</a></td>
+          <td><a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a></td>
+        </tr>
+      </table>
+      <table width="600px" style="margin: 0 auto;">
+        <tr>
+          <td width="300px" style="vertical-align: center; padding-top: 40px;">
+            <img src="media/assets/myrdin.png" border="1">
+          </td>
+          <td width="300px" style="vertical-align: center; padding-left:20px;padding-top: 40px;">
+            <br>
+            <b>Myrdin R. | Linguistics student</b>
+            <p>19 years old<br>he // him<br>Belgium</p>
+            <p><b>Interests:</b><br></p>
+            <p>
+              Linguistics<br>
+              Photography<br>
+              Stargazing & Space<br>
+              Computers
+            </p>
+            <br><b>Languages:</b>
+            <p>
+              Dutch - Mother Tongue (C2)<br>
+              English - Lingua Franca (C1)<br>
+              French - Basic Knowledge (B2)<br>
+              Swedish - One semester in uni (A1)<br>
+            </p>
+            <br><b>Socials:</b>
+            <p>
+              <a class="link" href="mailto:contact@myrdin.cx" target="_blank">[email]</a> //
+              <a class="link" href="https://myrdin.cx/media/myrdincx_gpg.asc" target="_blank">[pgp]</a><br>
+              <a class="link" href="https://github.com/Myrdincx" target="_blank">[github]</a> //
+              <a class="link" href="https://discord.com/users/300300616335622154" target="_blank">[discord]</a><br>
+              <a class="link" href="https://www.instagram.com/myrdincx/" target="_blank">[insta]</a> //
+              <a class="link" href="https://www.pinterest.com/myrdincx/" target="_blank">[pinterest]</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+      <a class="link" href="/">[home]</a>
+    </div>
+  </div>
+
+  <script>
+    const darkInput = document.getElementById('dark');
+    const lightInput = document.getElementById('light');
+    const saved = localStorage.getItem('theme');
+    if (saved === 'light') {
+      lightInput.checked = true;
+    } else {
+      darkInput.checked = true;
+    }
+    darkInput.addEventListener('change', () => {
+      if (darkInput.checked) localStorage.setItem('theme', 'dark');
+    });
+    lightInput.addEventListener('change', () => {
+      if (lightInput.checked) localStorage.setItem('theme', 'light');
+    });
+  </script>
+</body>
+</html>
