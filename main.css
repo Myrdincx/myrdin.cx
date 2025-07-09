@@ -64,58 +64,6 @@
       text-align: left;
     }
 
-    /* ========== Layout: Content Containers ========== */
-    #general,
-    #me,
-    #blog-container,
-    #blog-container-full {
-      font-size: 12px;
-      margin: 0 auto;
-    }
-
-    #general,
-    #me,
-    #blog-container-full {
-      width: 600px;
-    }
-
-    #blog-container {
-      width: 450px;
-    }
-
-    #nav-container,
-    #nav-blog-container {
-      text-align: center;
-      margin: 50px auto 0;
-      font-size: 12px;
-      word-spacing: 50px;
-      width: 600px;
-      padding: 5px;
-    }
-
-    #nav-blog-container {
-      word-spacing: 40px;
-    }
-
-    /* ========== Top Banner ========== */
-    #the-top {
-      width: 399px;
-      height: 147px;
-      margin: 75px auto 0;
-      position: relative;
-    }
-
-    #the-top img {
-      position: absolute;
-      left: 0;
-      text-align: center;
-      transition: opacity 0.7s ease-in-out;
-    }
-
-    #the-top img.t:hover {
-      opacity: 0;
-    }
-
     /* ========== Links ========== */
     .theme-wrapper a.link {
       display: inline-block;
@@ -158,13 +106,4 @@
     #light:checked ~ .theme-wrapper b,
     #light:checked ~ .theme-wrapper h3 {
       color: #778745;
-    }
-
-    /* ========== Profile Image ========== */
-    #profile-img {
-      border: none;
-    }
-
-    #light:checked ~ .theme-wrapper #profile-img {
-      border: none;
     }
