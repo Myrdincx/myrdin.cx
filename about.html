@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>myrdin // about me</title>
   <link rel="stylesheet" href="main.css">
   <link rel="icon" href="media/assets/pfp.png">
-  <style>
-
-  </style>
 </head>
 <body>
+
+<!-- Theme toggles -->
   <input type="radio" name="theme" id="dark" checked>
   <input type="radio" name="theme" id="light">
-
   <div class="toggle-theme">
     [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
   </div>
-
   <div class="theme-wrapper">
     <div id="main">
+
+<!-- Navigation -->
       <table width="600px" style="text-align: center;">
         <tr>
           <td><a class="link" href="about.html">about</a></td>
@@ -29,30 +29,30 @@
           <td><a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a></td>
         </tr>
       </table>
+<!-- Main content -->
       <table width="600px" style="margin: 0 auto;">
         <tr>
-          <td width="300px" style="vertical-align: center; padding-top: 40px;">
-            <img src="media/assets/myrdin.png" border="1">
+          <td width="300px" style="vertical-align: middle; padding-top: 40px;">
+            <img src="media/assets/myrdin.png" border="1" alt="Myrdin">
           </td>
-          <td width="300px" style="vertical-align: center; padding-left:20px;padding-top: 40px;">
-            <br>
+          <td width="300px" style="vertical-align: middle; padding-left: 20px; padding-top: 25px;">
             <b>Myrdin R. | Linguistics student</b>
             <p>19 years old<br>he // him<br>Belgium</p>
-            <p><b>Interests:</b><br></p>
+            <b>Interests:</b>
             <p>
               Linguistics<br>
               Photography<br>
               Stargazing & Space<br>
               Computers
             </p>
-            <br><b>Languages:</b>
+            <b>Languages:</b>
             <p>
               Dutch - Mother Tongue (C2)<br>
               English - Lingua Franca (C1)<br>
               French - Basic Knowledge (B2)<br>
               Swedish - One semester in uni (A1)<br>
             </p>
-            <br><b>Socials:</b>
+            <b>Socials:</b>
             <p>
               <a class="link" href="mailto:contact@myrdin.cx" target="_blank">[email]</a> //
               <a class="link" href="https://myrdin.cx/media/myrdincx_gpg.asc" target="_blank">[pgp]</a><br>
@@ -64,25 +64,32 @@
           </td>
         </tr>
       </table>
+
       <a class="link" href="/">[home]</a>
+
     </div>
   </div>
 
+<!-- Theme toggle script -->
   <script>
     const darkInput = document.getElementById('dark');
     const lightInput = document.getElementById('light');
     const saved = localStorage.getItem('theme');
+
     if (saved === 'light') {
       lightInput.checked = true;
     } else {
       darkInput.checked = true;
     }
+
     darkInput.addEventListener('change', () => {
       if (darkInput.checked) localStorage.setItem('theme', 'dark');
     });
+
     lightInput.addEventListener('change', () => {
       if (lightInput.checked) localStorage.setItem('theme', 'light');
     });
   </script>
+
 </body>
 </html>
