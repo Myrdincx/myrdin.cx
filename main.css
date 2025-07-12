@@ -1,4 +1,4 @@
-    /* ========== Base Styles ========== */
+/* ========== Base Styles ========== */
     * {
       font-family: monospace;
     }
@@ -12,7 +12,7 @@
       display: none;
     }
 
-    /* ========== Theme Toggle ========== */
+/* ========== Theme Toggle ========== */
     .toggle-theme {
       position: fixed;
       top: 10px;
@@ -28,16 +28,16 @@
       text-decoration: none;
     }
 
-    #light:checked ~ .toggle-theme label[for="light"],
-    #dark:checked ~ .toggle-theme label[for="dark"] {
+    #light:checked~.toggle-theme label[for="light"],
+    #dark:checked~.toggle-theme label[for="dark"] {
       text-decoration: underline;
     }
 
-    #light:checked ~ .toggle-theme {
+    #light:checked~.toggle-theme {
       color: #1a1c1a;
     }
 
-    /* ========== Theme Wrapper ========== */
+/* ========== Theme Wrapper ========== */
     .theme-wrapper {
       min-height: 100vh;
       width: 100%;
@@ -49,12 +49,12 @@
       align-items: center;
     }
 
-    #light:checked ~ .theme-wrapper {
+    #light:checked~.theme-wrapper {
       background-color: #f3dfc1;
       color: #1a1c1a;
     }
 
-    /* ========== Layout: Main Container ========== */
+/* ========== Layout: Main Container ========== */
     #main {
       font-size: 12px;
       width: 600px;
@@ -64,7 +64,7 @@
       text-align: left;
     }
 
-    /* ========== Links ========== */
+/* ========== Links ========== */
     .theme-wrapper a.link {
       display: inline-block;
       vertical-align: middle;
@@ -87,23 +87,23 @@
       color: #778745;
     }
 
-    #light:checked ~ .theme-wrapper a.link:link,
-    #light:checked ~ .theme-wrapper a.link:visited {
+    #light:checked~.theme-wrapper a.link:link,
+    #light:checked~.theme-wrapper a.link:visited {
       color: #1a1c1a;
     }
 
-    #light:checked ~ .theme-wrapper a.link:hover,
-    #light:checked ~ .theme-wrapper a.link:active {
+    #light:checked~.theme-wrapper a.link:hover,
+    #light:checked~.theme-wrapper a.link:active {
       color: #778745;
     }
 
-    /* ========== Typography Accents ========== */
+/* ========== Typography Accents ========== */
     .theme-wrapper b,
     .theme-wrapper h3 {
       color: #778745;
     }
 
-    #light:checked ~ .theme-wrapper b,
-    #light:checked ~ .theme-wrapper h3 {
+    #light:checked~.theme-wrapper b,
+    #light:checked~.theme-wrapper h3 {
       color: #778745;
     }
