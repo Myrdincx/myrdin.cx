@@ -97,6 +97,10 @@ input[type="radio"] {
   color: #778745;
 }
 
+a{
+  color: #778745;
+}
+
 /* ========== Typography Accents ========== */
 .theme-wrapper b,
 .theme-wrapper h3 {
