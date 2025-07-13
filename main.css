@@ -28,12 +28,12 @@ input[type="radio"] {
   text-decoration: none;
 }
 
-#light:checked~.toggle-theme label[for="light"],
-#dark:checked~.toggle-theme label[for="dark"] {
+#light:checked ~ .toggle-theme label[for="light"],
+#dark:checked ~ .toggle-theme label[for="dark"] {
   text-decoration: underline;
 }
 
-#light:checked~.toggle-theme {
+#light:checked ~ .toggle-theme {
   color: #1a1c1a;
 }
 
@@ -49,7 +49,7 @@ input[type="radio"] {
   align-items: center;
 }
 
-#light:checked~.theme-wrapper {
+#light:checked ~ .theme-wrapper {
   background-color: #f3dfc1;
   color: #1a1c1a;
 }
@@ -87,17 +87,17 @@ input[type="radio"] {
   color: #778745;
 }
 
-#light:checked~.theme-wrapper a.link:link,
-#light:checked~.theme-wrapper a.link:visited {
+#light:checked ~ .theme-wrapper a.link:link,
+#light:checked ~ .theme-wrapper a.link:visited {
   color: #1a1c1a;
 }
 
-#light:checked~.theme-wrapper a.link:hover,
-#light:checked~.theme-wrapper a.link:active {
+#light:checked ~ .theme-wrapper a.link:hover,
+#light:checked ~ .theme-wrapper a.link:active {
   color: #778745;
 }
 
-a{
+a {
   color: #778745;
 }
 
@@ -107,8 +107,8 @@ a{
   color: #778745;
 }
 
-#light:checked~.theme-wrapper b,
-#light:checked~.theme-wrapper h3 {
+#light:checked ~ .theme-wrapper b,
+#light:checked ~ .theme-wrapper h3 {
   color: #778745;
 }
 

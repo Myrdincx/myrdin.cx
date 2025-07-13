@@ -1,96 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- for discord -->
+    <meta content="~ Myrdin/About ⧉ ↟ ~" property="og:title" />
+    <meta content="Myrdin's About Page :)" property="og:description" />
+    <meta content="media/assets/pfp.png" property="og:image" />
+    <meta name="theme-color" content="#6f7e41" />
 
-<head>
+    <!-- for browser -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myrdin // home</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="media/assets/pfp.png" />
+    <script src="../js/theme.js"></script>
+  </head>
 
-  <!-- for discord -->
-  <meta content="~ Myrdin/About ⧉ ↟ ~" property="og:title">
-  <meta content="Myrdin's About Page :)" property="og:description">
-  <meta content="media/assets/pfp.png" property="og:image">
-  <meta name="theme-color" content="#6f7e41">
+  <body>
+    <!-- Theme toggles -->
+    <input type="radio" name="theme" id="dark" checked />
+    <input type="radio" name="theme" id="light" />
+    <div class="toggle-theme">
+      [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
+    </div>
+    <div class="theme-wrapper">
+      <div id="main">
+        <!-- Navigation -->
+        <table width="600px" style="text-align: center">
+          <tr>
+            <td><a class="link" href="about">about</a></td>
+            <td><a class="link" href="links">links</a></td>
+            <td><a class="link" href="blog">blogs</a></td>
+            <td><a class="link" href="projects">projects</a></td>
+            <td><a class="link" href="articles">articles</a></td>
+            <td><a class="link" href="photos">photos</a></td>
+            <td>
+              <a class="link" href="https://myrdin.atabook.org/" target="_blank"
+                >guestbook</a
+              >
+            </td>
+          </tr>
+        </table>
 
-  <!-- for browser -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>myrdin // home</title>
-  <link rel="stylesheet" href="main.css" />
-  <link rel="icon" href="media/assets/pfp.png" />
-  <script src="../js/theme.js"></script>
-</head>
-
-<body>
-
-  <!-- Theme toggles -->
-  <input type="radio" name="theme" id="dark" checked />
-  <input type="radio" name="theme" id="light" />
-  <div class="toggle-theme">
-    [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
-  </div>
-  <div class="theme-wrapper">
-    <div id="main">
-
-      <!-- Navigation -->
-      <table width="600px" style="text-align: center">
-        <tr>
-          <td><a class="link" href="about">about</a></td>
-          <td><a class="link" href="links">links</a></td>
-          <td><a class="link" href="blog">blogs</a></td>
-          <td><a class="link" href="projects">projects</a></td>
-          <td><a class="link" href="articles">articles</a></td>
-          <td><a class="link" href="photos">photos</a></td>
-          <td>
-            <a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a>
-          </td>
-        </tr>
-      </table>
-
-      <!-- Main content -->
-      <table width="600px" style="margin: 0 auto">
-        <tr>
-          <td width="300px" style="vertical-align: middle; padding-top: 40px">
-            <img src="media/assets/myrdin.png" border="1" alt="Myrdin" />
-          </td>
-          <td width="300px" style="
+        <!-- Main content -->
+        <table width="600px" style="margin: 0 auto">
+          <tr>
+            <td width="300px" style="vertical-align: middle; padding-top: 40px">
+              <img src="media/assets/myrdin.png" border="1" alt="Myrdin" />
+            </td>
+            <td
+              width="300px"
+              style="
                 vertical-align: middle;
                 padding-left: 20px;
                 padding-top: 25px;
-              ">
-            <b>Myrdin R. | Linguistics student</b>
-            <p>19 years old<br />he // him<br />Belgium</p>
-            <b>Interests:</b>
-            <p>
-              Linguistics<br />
-              Photography<br />
-              Stargazing & Space<br />
-              Computers
-            </p>
-            <b>Languages:</b>
-            <p>
-              Dutch - Mother Tongue (C2)<br />
-              English - Lingua Franca (C1)<br />
-              French - Basic Knowledge (B2)<br />
-              Swedish - One semester in uni (A1)<br />
-            </p>
-            <b>Socials:</b>
-            <p>
-              <a class="link" href="mailto:contact@myrdin.cx" target="_blank">[email]</a>
-              //
-              <span class="link">[pgp:<a class="link" href="/media/gpg/myrdincx_gpg.txt" target="_blank">txt</a>|<a
-                  class="link" href="/media/gpg/myrdincx_gpg.asc" target="_blank">asc</a>]</span><br />
-              <a class="link" href="https://github.com/Myrdincx" target="_blank">[github]</a>
-              //
-              <a class="link" href="https://discord.com/users/300300616335622154" target="_blank">[discord]</a><br />
-              <a class="link" href="https://www.instagram.com/myrdincx/" target="_blank">[insta]</a>
-              //
-              <a class="link" href="https://www.pinterest.com/myrdincx/" target="_blank">[pinterest]</a>
-            </p>
-          </td>
-        </tr>
-      </table>
+              "
+            >
+              <b>Myrdin R. | Linguistics student</b>
+              <p>19 years old<br />he // him<br />Belgium</p>
+              <b>Interests:</b>
+              <p>
+                Linguistics<br />
+                Photography<br />
+                Stargazing & Space<br />
+                Computers
+              </p>
+              <b>Languages:</b>
+              <p>
+                Dutch - Mother Tongue (C2)<br />
+                English - Lingua Franca (C1)<br />
+                French - Basic Knowledge (B2)<br />
+                Swedish - One semester in uni (A1)<br />
+              </p>
+              <b>Socials:</b>
+              <p>
+                <a class="link" href="mailto:contact@myrdin.cx" target="_blank"
+                  >[email]</a
+                >
+                //
+                <span class="link"
+                  >[pgp:<a
+                    class="link"
+                    href="/media/gpg/myrdincx_gpg.txt"
+                    target="_blank"
+                    >txt</a
+                  >|<a
+                    class="link"
+                    href="/media/gpg/myrdincx_gpg.asc"
+                    target="_blank"
+                    >asc</a
+                  >]</span
+                ><br />
+                <a
+                  class="link"
+                  href="https://github.com/Myrdincx"
+                  target="_blank"
+                  >[github]</a
+                >
+                //
+                <a
+                  class="link"
+                  href="https://discord.com/users/300300616335622154"
+                  target="_blank"
+                  >[discord]</a
+                ><br />
+                <a
+                  class="link"
+                  href="https://www.instagram.com/myrdincx/"
+                  target="_blank"
+                  >[insta]</a
+                >
+                //
+                <a
+                  class="link"
+                  href="https://www.pinterest.com/myrdincx/"
+                  target="_blank"
+                  >[pinterest]</a
+                >
+              </p>
+            </td>
+          </tr>
+        </table>
 
-      <a class="link" href="index">[home]</a>
+        <a class="link" href="index">[home]</a>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
