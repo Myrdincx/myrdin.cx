@@ -224,6 +224,7 @@ a {
   font-size: 12px;
   text-align: left;
   color: #f3dfc1;
+  padding-left:10px
 }
 
 #light:checked ~ .now-playing {
