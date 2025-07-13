@@ -210,3 +210,13 @@ a {
     height: auto;
   }
 }
+
+/* ========== Now Playing Widget (LastFM) ========== */
+.now-playing {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-family: monospace;
+  font-size: 12px;
+  text-align: left;
+}
