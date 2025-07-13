@@ -223,4 +223,9 @@ a {
   font-family: monospace;
   font-size: 12px;
   text-align: left;
+  color: #f3dfc1;
+}
+
+#light:checked ~ .now-playing {
+  color: #1a1c1a;
 }
