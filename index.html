@@ -1,100 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- for discord -->
+    <meta content="~ Myrdin ⧉ ↟ ~" property="og:title" />
+    <meta content="Myrdin's personal website! :)" property="og:description" />
+    <meta content="media/assets/pfp.png" property="og:image" />
+    <meta name="theme-color" content="#6f7e41" />
 
-<head>
+    <!-- for browser -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myrdin // home</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="media/assets/pfp.png" />
+    <script src="../js/theme.js"></script>
+  </head>
 
-  <!-- for discord -->
-  <meta content="~ Myrdin ⧉ ↟ ~" property="og:title">
-  <meta content="Myrdin's personal website! :)" property="og:description">
-  <meta content="media/assets/pfp.png" property="og:image">
-  <meta name="theme-color" content="#6f7e41">
+  <body>
+    <!-- Theme Toggle Inputs -->
+    <input type="radio" name="theme" id="dark" checked />
+    <input type="radio" name="theme" id="light" />
 
-  <!-- for browser -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>myrdin // home</title>
-  <link rel="stylesheet" href="main.css" />
-  <link rel="icon" href="media/assets/pfp.png" />
-</head>
-
-<body>
-
-  <!-- Theme Toggle Inputs -->
-  <input type="radio" name="theme" id="dark" checked />
-  <input type="radio" name="theme" id="light" />
-
-  <!-- Theme Toggle Control -->
-  <div class="toggle-theme">
-    [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
-  </div>
-
-  <!-- Main Content -->
-  <div class="theme-wrapper">
-    <div id="main">
-      <table width="600px" style="text-align: center">
-        <tr>
-          <td width="300px" style="vertical-align: center">
-            <h3>myrdin.cx ⧉ ↟</h3>
-            <a class="link" href="about">about</a><br />
-            <a class="link" href="links">links</a><br />
-            <a class="link" href="blog">blogs</a><br />
-            <a class="link" href="projects">projects</a><br />
-            <a class="link" href="articles">articles</a><br />
-            <a class="link" href="photos">photos</a><br />
-            <a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a>
-          </td>
-          <td width="300px" style="vertical-align: top">
-            <img id="random-image" border="1" />
-          </td>
-        </tr>
-      </table>
+    <!-- Theme Toggle Control -->
+    <div class="toggle-theme">
+      [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
     </div>
-  </div>
 
-  <!-- Scripts -->
-  <script>
-    // Random image selector
-    const images = [
-      "media/assets/covers/cover1.png",
-      "media/assets/covers/cover2.png",
-      "media/assets/covers/cover3.png",
-      "media/assets/covers/cover4.png",
-      "media/assets/covers/cover5.png",
-      "media/assets/covers/cover6.png",
-      "media/assets/covers/cover7.png",
-      "media/assets/covers/cover8.png",
-      "media/assets/covers/cover9.png",
-      "media/assets/covers/cover10.png",
-    ];
-    const imgElement = document.getElementById("random-image");
-    const randomIndex = Math.floor(Math.random() * images.length);
-    imgElement.src = images[randomIndex];
-  </script>
+    <!-- Main Content -->
+    <div class="theme-wrapper">
+      <div id="main">
+        <table width="600px" style="text-align: center">
+          <tr>
+            <td width="300px" style="vertical-align: center">
+              <h3>myrdin.cx ⧉ ↟</h3>
+              <a class="link" href="about">about</a><br />
+              <a class="link" href="links">links</a><br />
+              <a class="link" href="blog">blogs</a><br />
+              <a class="link" href="projects">projects</a><br />
+              <a class="link" href="articles">articles</a><br />
+              <a class="link" href="photos">photos</a><br />
+              <a class="link" href="https://myrdin.atabook.org/" target="_blank"
+                >guestbook</a
+              >
+            </td>
+            <td width="300px" style="vertical-align: top">
+              <img id="random-image" border="1" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
 
-  <script>
-    // Theme preference handler
-    const darkInput = document.getElementById("dark");
-    const lightInput = document.getElementById("light");
-    const savedTheme = localStorage.getItem("theme");
-
-    if (savedTheme === "light") {
-      lightInput.checked = true;
-    } else {
-      darkInput.checked = true;
-    }
-
-    darkInput.addEventListener("change", () => {
-      if (darkInput.checked) {
-        localStorage.setItem("theme", "dark");
-      }
-    });
-
-    lightInput.addEventListener("change", () => {
-      if (lightInput.checked) {
-        localStorage.setItem("theme", "light");
-      }
-    });
-  </script>
-</body>
-
+    <script>
+      const totalCovers = 10;
+      const randomNumber = Math.floor(Math.random() * totalCovers) + 1;
+      document.getElementById("random-image").src =
+        `media/assets/covers/cover${randomNumber}.png`;
+    </script>
+  </body>
 </html>
