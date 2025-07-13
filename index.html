@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- for discord -->
@@ -17,6 +17,20 @@
   </head>
 
   <body>
+    <noscript>
+      <!-- No Script Banner -->
+      <div class="noscript-banner">
+        <p>
+          ⚠ JavaScript is disabled. Some features of myrdin.cx may not work
+          properly. We rely on <a href="./js/theme.js">theme.js</a> for loading rotating between different images on the homepage.
+        </p>
+        <p>
+          Please enable JavaScript or make an exception for myrdin.cx in your
+          browser settings.
+        </p>
+      </div>
+    </noscript>
+
     <!-- Theme Toggle Inputs -->
     <input type="radio" name="theme" id="dark" checked />
     <input type="radio" name="theme" id="light" />
@@ -54,8 +68,9 @@
     <script>
       const totalCovers = 10;
       const randomNumber = Math.floor(Math.random() * totalCovers) + 1;
-      document.getElementById("random-image").src =
-        `media/assets/covers/cover${randomNumber}.png`;
+      document.getElementById(
+        "random-image"
+      ).src = `media/assets/covers/cover${randomNumber}.png`;
     </script>
   </body>
 </html>
