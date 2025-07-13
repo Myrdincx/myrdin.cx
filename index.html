@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- for discord -->
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="icon" href="./media/assets/pfp.png" />
     <script src="../js/theme.js" defer></script>
+    <script src="../js/lastfm.js"></script>
   </head>
 
   <body>
@@ -22,7 +23,8 @@
       <div class="noscript-banner">
         <p>
           ⚠ JavaScript is disabled. Some features of myrdin.cx may not work
-          properly. We rely on <a href="js/theme.js" target="_blank">theme.js</a> for consistent
+          properly. We rely on
+          <a href="js/theme.js" target="_blank">theme.js</a> for consistent
           dark/light mode and the rotating images on the homepage.
         </p>
         <p>
@@ -69,9 +71,8 @@
     <script>
       const totalCovers = 10;
       const randomNumber = Math.floor(Math.random() * totalCovers) + 1;
-      document.getElementById(
-        "random-image"
-      ).src = `media/assets/covers/cover${randomNumber}.png`;
+      document.getElementById("random-image").src =
+        `media/assets/covers/cover${randomNumber}.png`;
     </script>
   </body>
 </html>
