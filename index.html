@@ -15,6 +15,7 @@
   <title>myrdin // home</title>
   <link rel="stylesheet" href="main.css" />
   <link rel="icon" href="media/assets/pfp.png" />
+  <script src="../js/theme.js"></script>
 </head>
 
 <body>
@@ -51,49 +52,10 @@
     </div>
   </div>
 
-  <!-- Scripts -->
   <script>
-    // Random image selector
-    const images = [
-      "media/assets/covers/cover1.png",
-      "media/assets/covers/cover2.png",
-      "media/assets/covers/cover3.png",
-      "media/assets/covers/cover4.png",
-      "media/assets/covers/cover5.png",
-      "media/assets/covers/cover6.png",
-      "media/assets/covers/cover7.png",
-      "media/assets/covers/cover8.png",
-      "media/assets/covers/cover9.png",
-      "media/assets/covers/cover10.png",
-    ];
-    const imgElement = document.getElementById("random-image");
-    const randomIndex = Math.floor(Math.random() * images.length);
-    imgElement.src = images[randomIndex];
-  </script>
-
-  <script>
-    // Theme preference handler
-    const darkInput = document.getElementById("dark");
-    const lightInput = document.getElementById("light");
-    const savedTheme = localStorage.getItem("theme");
-
-    if (savedTheme === "light") {
-      lightInput.checked = true;
-    } else {
-      darkInput.checked = true;
-    }
-
-    darkInput.addEventListener("change", () => {
-      if (darkInput.checked) {
-        localStorage.setItem("theme", "dark");
-      }
-    });
-
-    lightInput.addEventListener("change", () => {
-      if (lightInput.checked) {
-        localStorage.setItem("theme", "light");
-      }
-    });
+    const totalCovers = 10;
+    const randomNumber = Math.floor(Math.random() * totalCovers) + 1;
+    document.getElementById("random-image").src = `media/assets/covers/cover${randomNumber}.png`;
   </script>
 </body>
 
