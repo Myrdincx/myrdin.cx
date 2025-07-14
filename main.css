@@ -64,6 +64,66 @@ input[type="radio"] {
   text-align: left;
 }
 
+/* ========== Layout: Gallery ========== */
+        .gallery {
+            column-count: 3;
+            column-gap: 1rem;
+            max-width: 100%;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+            break-inside: avoid;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.02);
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery {
+                column-count: 1;
+            }
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            backdrop-filter: blur(6px);
+            background: rgba(0, 0, 0, 0.75);
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .modal img {
+            max-width: 90%;
+            max-height: 80%;
+            margin-bottom: 1rem;
+        }
+
+        .modal a {
+            color: #ddd;
+            font-size: 0.9rem;
+            text-decoration: underline;
+        }
+
 /* ========== Links ========== */
 .theme-wrapper a.link {
   display: inline-block;
@@ -230,3 +290,4 @@ a {
 #light:checked ~ .now-playing {
   color: #1a1c1a;
 }
+
