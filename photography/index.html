@@ -71,7 +71,7 @@
                         apologies if the quality isn't the best :(</p>
                     <hr /><br>
                     <div class="gallery">
-                        <img src="../media/photography/sverige2024/image1.webp" alt="Image 1 sverige2024" />
+                        <img src="../media/photography/sverige2024/image1.webp" alt="Image 1 sverige2024" data-caption="ISO 32, f/2, 1/182s - Samsung A51"/>
                         <img src="../media/photography/sverige2024/image2.webp" alt="Image 2 sverige2024" />
                         <img src="../media/photography/sverige2024/image3.webp" alt="Image 3 sverige2024" />
                         <img src="../media/photography/sverige2024/image4.webp" alt="Image 4 sverige2024" />
@@ -99,12 +99,13 @@
             <a class="link" href="../">[home]</a>
         </div>
     </div>
-    <div class="modal" id="imageModal" onclick="closeModal(event)">
-        <button class="modal-nav prev" onclick="showPrevImage(event)">←</button>
-        <img id="modalImg" src="" alt="Enlarged image">
-        <a id="openInNewTab" href="#" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
-        <button class="modal-nav next" onclick="showNextImage(event)">→</button>
-    </div>
+<div class="modal" id="imageModal" onclick="closeModal(event)">
+    <button class="modal-nav prev" onclick="showPrevImage(event)">←</button>
+    <img id="modalImg" src="" alt="Enlarged image">
+    <p class="modal-caption" id="modalCaption"></p> <!-- Caption here -->
+    <a id="openInNewTab" href="#" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
+    <button class="modal-nav next" onclick="showNextImage(event)">→</button>
+</div>
 
 </body>
 
