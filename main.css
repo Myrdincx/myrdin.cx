@@ -28,12 +28,12 @@ input[type="radio"] {
   text-decoration: none;
 }
 
-#light:checked ~ .toggle-theme label[for="light"],
-#dark:checked ~ .toggle-theme label[for="dark"] {
+#light:checked~.toggle-theme label[for="light"],
+#dark:checked~.toggle-theme label[for="dark"] {
   text-decoration: underline;
 }
 
-#light:checked ~ .toggle-theme {
+#light:checked~.toggle-theme {
   color: #1a1c1a;
 }
 
@@ -49,7 +49,7 @@ input[type="radio"] {
   align-items: center;
 }
 
-#light:checked ~ .theme-wrapper {
+#light:checked~.theme-wrapper {
   background-color: #f3dfc1;
   color: #1a1c1a;
 }
@@ -65,64 +65,93 @@ input[type="radio"] {
 }
 
 /* ========== Layout: Gallery ========== */
-        .gallery {
-            column-count: 3;
-            column-gap: 1rem;
-            max-width: 100%;
-        }
+.gallery {
+  column-count: 3;
+  column-gap: 1rem;
+  max-width: 100%;
+}
 
-        .gallery img {
-            width: 100%;
-            height: auto;
-            margin-bottom: 1rem;
-            break-inside: avoid;
-            cursor: pointer;
-            transition: transform 0.2s ease;
-        }
+.gallery img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  break-inside: avoid;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
 
-        .gallery img:hover {
-            transform: scale(1.02);
-        }
+.gallery img:hover {
+  transform: scale(1.02);
+}
 
-        @media (max-width: 768px) {
-            .gallery {
-                column-count: 2;
-            }
-        }
+@media (max-width: 768px) {
+  .gallery {
+    column-count: 2;
+  }
+}
 
-        @media (max-width: 480px) {
-            .gallery {
-                column-count: 1;
-            }
-        }
+@media (max-width: 480px) {
+  .gallery {
+    column-count: 1;
+  }
+}
 
-        /* Modal */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 999;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            backdrop-filter: blur(6px);
-            background: rgba(0, 0, 0, 0.75);
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-        .modal img {
-            max-width: 90%;
-            max-height: 80%;
-            margin-bottom: 1rem;
-        }
+.modal img {
+  max-width: 90%;
+  max-height: 80%;
+  margin-bottom: 1rem;
+}
 
-        .modal a {
-            color: #ddd;
-            font-size: 0.9rem;
-            text-decoration: underline;
-        }
+.modal a {
+  color: #f3dfc1;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.modal-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  font-size: 2rem;
+  color: #f3dfc1;
+  padding: 0.4rem 0.8rem;
+  background: transparent;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+  user-select: none;
+  z-index: 1000;
+}
+
+.modal-nav:hover {
+  color: #778745;
+  transform: translateY(-50%) scale(1.15);
+}
+
+.modal-nav.prev {
+  left: 20px;
+}
+
+.modal-nav.next {
+  right: 20px;
+}
+
 
 /* ========== Links ========== */
 .theme-wrapper a.link {
@@ -147,13 +176,13 @@ input[type="radio"] {
   color: #778745;
 }
 
-#light:checked ~ .theme-wrapper a.link:link,
-#light:checked ~ .theme-wrapper a.link:visited {
+#light:checked~.theme-wrapper a.link:link,
+#light:checked~.theme-wrapper a.link:visited {
   color: #1a1c1a;
 }
 
-#light:checked ~ .theme-wrapper a.link:hover,
-#light:checked ~ .theme-wrapper a.link:active {
+#light:checked~.theme-wrapper a.link:hover,
+#light:checked~.theme-wrapper a.link:active {
   color: #778745;
 }
 
@@ -167,8 +196,8 @@ a {
   color: #778745;
 }
 
-#light:checked ~ .theme-wrapper b,
-#light:checked ~ .theme-wrapper h3 {
+#light:checked~.theme-wrapper b,
+#light:checked~.theme-wrapper h3 {
   color: #778745;
 }
 
@@ -182,6 +211,7 @@ a {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
   animation: flickerWarning 0.15s infinite alternate;
 }
+
 .noscript-banner a {
   color: #aaa;
   text-decoration: underline;
@@ -191,6 +221,7 @@ a {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0.8;
   }
@@ -284,10 +315,9 @@ a {
   font-size: 12px;
   text-align: left;
   color: #f3dfc1;
-  padding-left:10px
+  padding-left: 10px
 }
 
-#light:checked ~ .now-playing {
+#light:checked~.now-playing {
   color: #1a1c1a;
 }
-

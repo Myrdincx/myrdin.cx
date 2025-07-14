@@ -67,16 +67,17 @@
                 <tr>
                     <h2>Photography</h2>
                     <p>Click the image to enlarge it or to open it in a new tab!</p>
-                    <p>The images have been compressed and turned into the <em>webp</em> format to save bandwith, apologies if the quality isn't the best :(</p>
+                    <p>The images have been compressed and turned into the <em>webp</em> format to save bandwith,
+                        apologies if the quality isn't the best :(</p>
                     <hr /><br>
-                    <div class="gallery">     
-                        <img src="../media/photography/sverige2024/image1.webp" alt="Image 1 sverige2024" />                                    
+                    <div class="gallery">
+                        <img src="../media/photography/sverige2024/image1.webp" alt="Image 1 sverige2024" />
                         <img src="../media/photography/sverige2024/image2.webp" alt="Image 2 sverige2024" />
                         <img src="../media/photography/sverige2024/image3.webp" alt="Image 3 sverige2024" />
                         <img src="../media/photography/sverige2024/image4.webp" alt="Image 4 sverige2024" />
                         <img src="../media/photography/sverige2024/image5.webp" alt="Image 5 sverige2024" />
                         <img src="../media/photography/sverige2024/image6.webp" alt="Image 6 sverige2024" />
-                        <img src="../media/photography/sverige2024/image7.webp" alt="Image 7 sverige2024" />                        
+                        <img src="../media/photography/sverige2024/image7.webp" alt="Image 7 sverige2024" />
                         <img src="../media/photography/sverige2024/image8.webp" alt="Image 8 sverige2024" />
                         <img src="../media/photography/sverige2024/image9.webp" alt="Image 9 sverige2024" />
                         <img src="../media/photography/sverige2024/image10.webp" alt="Image 10 sverige2024" />
@@ -87,9 +88,9 @@
                         <img src="../media/photography/sverige2024/image15.webp" alt="Image 15 sverige2024" />
                         <img src="../media/photography/sverige2024/image16.webp" alt="Image 16 sverige2024" />
                         <img src="../media/photography/sverige2024/image17.webp" alt="Image 17 sverige2024" />
-                        <img src="../media/photography/sverige2024/image18.webp" alt="Image 18 sverige2024" />                    
+                        <img src="../media/photography/sverige2024/image18.webp" alt="Image 18 sverige2024" />
                         <img src="../media/photography/sverige2024/image19.webp" alt="Image 19 sverige2024" />
-                        <img src="../media/photography/sverige2024/image20.webp" alt="Image 20 sverige2024" />                     
+                        <img src="../media/photography/sverige2024/image20.webp" alt="Image 20 sverige2024" />
                     </div>
                     <hr />
                     </td>
@@ -99,8 +100,10 @@
         </div>
     </div>
     <div class="modal" id="imageModal" onclick="closeModal(event)">
+        <button class="modal-nav prev" onclick="showPrevImage(event)">←</button>
         <img id="modalImg" src="" alt="Enlarged image">
         <a id="openInNewTab" href="#" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
+        <button class="modal-nav next" onclick="showNextImage(event)">→</button>
     </div>
 
 </body>
