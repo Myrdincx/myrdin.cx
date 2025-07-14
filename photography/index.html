@@ -1,6 +1,7 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- for discord -->
     <meta content="~ myrdin // blogs ⧉ ↟ ~" property="og:title" />
     <meta content="Myrdin's blogposts :)" property="og:description" />
@@ -14,144 +15,141 @@
     <link rel="stylesheet" href="../main.css" />
     <link rel="icon" href="../media/assets/pfp.png" />
     <script src="../js/theme.js" defer></script>
-    <script src="../js/lastfm.js"></script>
+    <script src="../js/modalview.js" defer></script>
 
     <!-- Gallery Style -->
 
     <style>
-      div.gallery {
-        margin: 5px;
-        border: 1px solid;
-        float: left;
-        width: 180px;
-      }
+        .gallery {
+            column-count: 3;
+            column-gap: 1rem;
+            max-width: 100%;
+        }
 
-      div.gallery:hover {
-        border: 1px solid #778745;
-      }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+            break-inside: avoid;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
 
-      div.gallery img {
-        width: 100%;
-        height: auto;
-      }
+        .gallery img:hover {
+            transform: scale(1.02);
+        }
 
-      div.desc {
-        padding: 15px;
-        text-align: center;
-      }
+        @media (max-width: 768px) {
+            .gallery {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery {
+                column-count: 1;
+            }
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            backdrop-filter: blur(6px);
+            background: rgba(0, 0, 0, 0.75);
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .modal img {
+            max-width: 90%;
+            max-height: 80%;
+            margin-bottom: 1rem;
+        }
+
+        .modal a {
+            color: #ddd;
+            font-size: 0.9rem;
+            text-decoration: underline;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
+
+<!-- no script warning -->
+
+    <noscript>
+      <!-- No Script Banner -->
+      <div class="noscript-banner">
+        <p>
+          ⚠ JavaScript is disabled. Some features of myrdin.cx may not work
+          properly. We rely on
+          <a href="../js/theme.js" target="_blank">theme.js</a> for consistent
+          dark/light mode on all pages and <a href="../js/modalview.js">modalview.js</a> for an enlarged view of the images.
+        </p>
+        <p>
+          Please enable JavaScript or make an exception for myrdin.cx in your
+          browser settings.
+        </p>
+      </div>
+    </noscript>
+
     <!-- Theme toggles -->
     <input type="radio" name="theme" id="dark" checked />
     <input type="radio" name="theme" id="light" />
     <div class="toggle-theme">
-      [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
+        [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
     </div>
     <div class="theme-wrapper">
-      <div id="main">
-        <!-- Navigation -->
-        <table width="600px" style="text-align: center">
-          <tr>
-            <td><a class="link" href="../about">about</a></td>
-            <td><a class="link" href="../links">links</a></td>
-            <td><a class="link" href="../blogs">blogs</a></td>
-            <td><a class="link" href="../projects">projects</a></td>
-            <td><a class="link" href="../articles">articles</a></td>
-            <td><a class="link" href="../photography">photography</a></td>
-            <td>
-              <a class="link" href="https://myrdin.atabook.org/" target="_blank"
-                >guestbook</a
-              >
-            </td>
-          </tr>
-        </table>
+        <div id="main">
+            <!-- Navigation -->
+            <table width="600px" style="text-align: center">
+                <tr>
+                    <td><a class="link" href="../about">about</a></td>
+                    <td><a class="link" href="../links">links</a></td>
+                    <td><a class="link" href="../blogs">blogs</a></td>
+                    <td><a class="link" href="../projects">projects</a></td>
+                    <td><a class="link" href="../articles">articles</a></td>
+                    <td><a class="link" href="../photography">photography</a></td>
+                    <td>
+                        <a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a>
+                    </td>
+                </tr>
+            </table>
 
-        <!-- Main content -->
-        <table width="600px" style="margin: 0 auto">
-          <tr>
-              <h2>Photography [WIP]</h2>
-              <p>Click on the image to open it in a new tab!</p>
-              <hr />
-              <div class="gallery">
-                <a target="_blank" href="../media/photography/sverige2024/blorp.png">
-                  <img
-                    src="../media/photography/sverige2024/blorp.png"
-                    alt="placeholder"
-                    width="600"
-                    height="400"
-                  />
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
-
-              <div class="gallery">
-                <a target="_blank" href="../media/photography/sverige2024/blorp.png">
-                  <img
-                    src="../media/photography/sverige2024/blorp.png"
-                    alt="placeholder"
-                    width="600"
-                    height="400"
-                  />
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
-
-              <div class="gallery">
-                <a target="_blank" href="../media/photography/sverige2024/blorp.png">
-                  <img
-                    src="../media/photography/sverige2024/blorp.png"
-                    alt="placeholder"
-                    width="600"
-                    height="400"
-                  />
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
-
-              <div class="gallery">
-                <a target="_blank" href="../media/photography/sverige2024/blorp.png">
-                  <img
-                    src="../media/photography/sverige2024/blorp.png"
-                    alt="placeholder"
-                    width="600"
-                    height="400"
-                  />
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
-
-              <div class="gallery">
-                <a target="_blank" href="../media/photography/sverige2024/blorp.png">
-                  <img
-                    src="../media/photography/sverige2024/blorp.png"
-                    alt="placeholder"
-                    width="600"
-                    height="400"
-                  />
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
-
-              <div class="gallery">
-                <a target="_blank" href="../media/photography/sverige2024/blorp.png">
-                  <img
-                    src="../media/photography/sverige2024/blorp.png"
-                    alt="placeholder"
-                    width="600"
-                    height="400"
-                  />
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
-
-            </td>
-          </tr>
-        </table>
-        <hr>
-        <a class="link" href="../">[home]</a>
-      </div>
+            <!-- Main content -->
+            <table width="600px" style="margin: 0 auto">
+                <tr>
+                    <h2>Photography</h2>
+                    <p>Click the image to enlarge it or to open it in a new tab!</p>
+                    <hr /><br>
+                    <div class="gallery">
+                        <img src="../media/photography/sverige2024/blorp.png" alt="Image 1" />
+                        <img src="../media/assets/covers/cover5.png" alt="Image 2" />
+                        <img src="../media/assets/covers/cover10.png" alt="Image 3" />
+                        <img src="../media/photography/sverige2024/blorp.png" alt="Image 4" />
+                        <img src="../media/photography/sverige2024/blorp.png" alt="Image 5" />
+                        <img src="../media/assets/covers/cover10.png" alt="Image 6" />
+                    </div>
+                    <hr />
+                    </td>
+                </tr>
+            </table>
+            <a class="link" href="../">[home]</a>
+        </div>
     </div>
-  </body>
+    <div class="modal" id="imageModal" onclick="closeModal(event)">
+        <img id="modalImg" src="" alt="Enlarged image">
+        <a id="openInNewTab" href="#" target="_blank" rel="noopener noreferrer">View full size ↗</a>
+    </div>
+
+</body>
+
 </html>
