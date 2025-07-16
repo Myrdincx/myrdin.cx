@@ -23,7 +23,7 @@ const url = `https://lastfm-last-played.biancarosa.com.br/${user}/latest-song`;
     link.rel = 'noopener noreferrer';
     link.textContent = `${trackName} by ${artistName}`;
 
-    nowPlaying.textContent = `${isNowPlaying ? 'Now playing' : 'Last played'}: `;
+    nowPlaying.textContent = `${isNowPlaying ? 'Listening to' : 'Last played'}: `;
     nowPlaying.appendChild(link);
 
     const main = document.getElementById('main');
