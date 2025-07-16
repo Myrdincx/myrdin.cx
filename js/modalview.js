@@ -1,6 +1,6 @@
 const modal = document.getElementById("imageModal");
 const modalImg = document.getElementById("modalImg");
-const modalCaption = document.getElementById("modalCaption"); // New
+const modalCaption = document.getElementById("modalCaption");
 const openLink = document.getElementById("openInNewTab");
 
 const images = Array.from(document.querySelectorAll(".gallery img"));
@@ -17,7 +17,7 @@ function openModalWithImage(imgElement) {
   const src = imgElement.src;
   const caption = imgElement.dataset.caption || "";
   modalImg.src = src;
-  modalCaption.textContent = caption; // Update caption
+  modalCaption.textContent = caption;
   openLink.href = src;
   modal.style.display = "flex";
 }
