@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- for discord -->
+    <meta content="~ myrdin // photography ⧉ ↟ ~" property="og:title" />
+    <meta content="photos I took or things I made :)" property="og:description" />
+    <meta content="/media/assets/pfp.png" property="og:image" />
+    <meta name="theme-color" content="#6f7e41" />
+
+    <!-- for browser -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myrdin // photography</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="icon" href="../media/assets/pfp.png" />
+    <script src="../js/theme.js" defer></script>
+    <script src="../js/modalview.js" defer></script>
+</head>
+
+<body>
+
+    <!-- no script warning -->
+
+    <noscript>
+        <!-- No Script Banner -->
+        <div class="noscript-banner">
+            <p>
+                ⚠ JavaScript is disabled. Some features of myrdin.cx may not work
+                properly. We rely on
+                <a href="../js/theme.js" target="_blank">theme.js</a> for consistent
+                dark/light mode on all pages and <a href="../js/modalview.js">modalview.js</a> for an enlarged view of
+                the images.
+            </p>
+            <p>
+                Please enable JavaScript or make an exception for myrdin.cx in your
+                browser settings.
+            </p>
+        </div>
+    </noscript>
+
+    <!-- Theme toggles -->
+    <input type="radio" name="theme" id="dark" checked />
+    <input type="radio" name="theme" id="light" />
+    <div class="toggle-theme">
+        [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
+    </div>
+    <div class="theme-wrapper">
+        <div id="main">
+            <!-- Navigation -->
+            <table width="600px" style="text-align: center">
+                <tr>
+                    <td><a class="link" href="../about">about</a></td>
+                    <td><a class="link" href="../links">links</a></td>
+                    <td><a class="link" href="../blogs">blogs</a></td>
+                    <td><a class="link" href="../projects">projects</a></td>
+                    <td><a class="link" href="../articles">articles</a></td>
+                    <td><a class="link" href="../photography">photography</a></td>
+                    <td>
+                        <a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Main content -->
+            <table width="300" style="margin: 0 auto">
+                <tr>
+                    <h2>Photography - Posters [WIP]</h2>
+                    <p>Click the image to enlarge it or to open it in a new tab!</p>
+                    <p>The images have been compressed and turned into the <em>webp</em> format to save bandwith,
+                        apologies if the quality isn't the best :(</p>
+                    <hr /><br>
+                    <div class="gallery">
+                        <img src="../media/photography/posters/Linguistics.webp" alt="Linguistics Light" loading="lazy" data-caption="Linguistics - made in Photopea"/>
+                        <img src="../media/photography/posters/Linguistics_inverted.webp" alt="Linguistics Dark" loading="lazy" data-caption="Linguistics - made in Photopea"/>
+                        <img src="../media/photography/posters/Divine Machinery.webp" alt="Divine Machinery Light" loading="lazy" data-caption="Divine Machinery - made in Photopea"/>
+                        <img src="../media/photography/posters/Divine Machinery_inverted.webp" alt="Divine Machinery Dark" loading="lazy" data-caption="Divine Machinery - made in Photopea">
+                    </div>
+                    <hr />
+                    </td>
+                </tr>
+            </table>
+            <a class="link" href="../">[home]</a>
+            <a class="link" href="../photography/index">[index]</a>
+        </div>
+    </div>
+<div class="modal" id="imageModal" onclick="closeModal(event)">
+    <button class="modal-nav prev" onclick="showPrevImage(event)">←</button>
+    <img id="modalImg" src="" alt="Enlarged image">
+    <p class="modal-caption" id="modalCaption"></p> <!-- Caption here -->
+    <a id="openInNewTab" href="#" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
+    <button class="modal-nav next" onclick="showNextImage(event)">→</button>
+</div>
+
+</body>
+
+</html>
