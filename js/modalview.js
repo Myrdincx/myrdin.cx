@@ -30,16 +30,12 @@ function closeModal(event) {
 
 function showPrevImage(event) {
   event.stopPropagation();
-  if (currentIndex > 0) {
-    currentIndex--;
-    openModalWithImage(images[currentIndex]);
-  }
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  openModalWithImage(images[currentIndex]);
 }
 
 function showNextImage(event) {
   event.stopPropagation();
-  if (currentIndex < images.length - 1) {
-    currentIndex++;
-    openModalWithImage(images[currentIndex]);
-  }
+  currentIndex = (currentIndex + 1) % images.length;
+  openModalWithImage(images[currentIndex]);
 }
