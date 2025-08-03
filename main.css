@@ -64,6 +64,12 @@ input[type="radio"] {
   text-align: left;
 }
 
+blockquote {
+  border-left: 2px solid rgba(119, 135, 69, 0.3); /* 30% opacity */
+  padding-left: 1em;
+  margin-left: 0;
+}
+
 /* ========== Layout: Gallery ========== */
 .gallery {
   column-count: 3;
