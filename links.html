@@ -91,16 +91,24 @@
                 My <b>button [81x31]</b> (gif format, replace the .gif with .png
                 for the png format):
               </p>
-              <textarea style="resize: none; width: 30%; height: 45px">
-<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/links/myrdin/button.gif"></a></textarea
-              >
+              <div class="code-snippet">
+                <textarea readonly>
+<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/links/myrdin/button.gif"></a>
+  </textarea
+                >
+                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+              </div>
               <p>
                 My <b>banner [240x60]</b> (gif format, replace the .gif with
                 .png for the png format):
               </p>
-              <textarea style="resize: none; width: 30%; height: 45px">
-<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/links/myrdin/banner.gif"></a></textarea
-              >
+              <div class="code-snippet">
+                <textarea readonly>
+<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/links/myrdin/banner.gif"></a>
+  </textarea
+                >
+                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+              </div>
               <br /><br />
               <hr />
               <h2>my site</h2>
@@ -528,5 +536,19 @@
         <a class="link" href="/">[home]</a>
       </div>
     </div>
+
+    <script>
+      function copyCode(button) {
+        const textarea = button.previousElementSibling;
+        textarea.select();
+        textarea.setSelectionRange(0, 99999); // For mobile
+        document.execCommand("copy");
+
+        button.textContent = "Copied!";
+        setTimeout(() => {
+          button.textContent = "Copy";
+        }, 1500);
+      }
+    </script>
   </body>
 </html>
