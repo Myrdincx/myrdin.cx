@@ -319,3 +319,49 @@ a {
   margin: 1rem 0;      
   width: 100%;         
 }
+
+/* ========== Textarea + copy button ========== */
+
+.code-snippet {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.code-snippet textarea {
+  flex: 1;
+  resize: none;
+  overflow: hidden; /* disable scrollbars */
+  padding: 6px;
+  font-size: 12px;
+  font-family: monospace;
+  background-color: rgba(119, 135, 69, 0.05);
+  border: 1px solid rgba(119, 135, 69, 0.4);
+  border-radius: 4px 0 0 4px;
+  color: inherit;
+}
+
+.copy-btn {
+  padding: 0 10px;
+  background-color: #778745;
+  color: #f3dfc1;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 0 4px 4px 0;
+  transition: background-color 0.2s ease;
+}
+
+.copy-btn:hover {
+  background-color: #8ea559;
+}
+
+#light:checked ~ .theme-wrapper .copy-btn {
+  background-color: #778745;
+  color: #f3dfc1;
+}
+
+#light:checked ~ .theme-wrapper .copy-btn:hover {
+  background-color: #8ea559;
+
+}
