@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- for discord -->
@@ -19,17 +19,11 @@
 
   <body>
     <noscript>
-      <!-- No Script Banner -->
       <div class="noscript-banner">
         <p>
           ⚠ JavaScript is disabled. Some features of myrdin.cx may not work
           properly. We rely on
-          <a href="/js/theme.js" target="_blank">theme.js</a> for consistent
-          dark/light mode and the rotating images on the homepage.
-        </p>
-        <p>
-          Please enable JavaScript or make an exception for myrdin.cx in your
-          browser settings.
+          <a href="/js/theme.js" target="_blank">theme.js</a>.
         </p>
       </div>
     </noscript>
@@ -46,34 +40,34 @@
     <!-- Main Content -->
     <div class="theme-wrapper">
       <div id="main">
-        <table width="600px" style="text-align: center">
-          <tr>
-            <td width="300px" style="vertical-align: center">
-              <h3>myrdin.cx ⧉ ↟</h3>
-              <a class="link" href="/about">about</a><br />
-              <a class="link" href="/links">links</a><br />
-              <a class="link" href="/blogs">blogs</a><br />
-              <a class="link" href="/projects">projects</a><br />
-              <a class="link" href="/articles">articles</a><br />
-              <a class="link" href="/photography">photography</a><br />
-              <a class="link" href="https://myrdin.atabook.org/" target="_blank"
-                >guestbook</a
-              >
-            </td>
-            <td width="300px" style="vertical-align: top">
-              <img id="random-image" border="1" />
-            </td>
-          </tr>
-        </table>
+        <!-- FLEXBOX HOME LAYOUT -->
+        <div class="home-layout">
+          <div class="home-links">
+            <h3>myrdin.cx ⧉ ↟</h3>
+            <a class="link" href="/about">about</a><br />
+            <a class="link" href="/links">links</a><br />
+            <a class="link" href="/blogs">blogs</a><br />
+            <a class="link" href="/projects">projects</a><br />
+            <a class="link" href="/articles">articles</a><br />
+            <a class="link" href="/photography">photography</a><br />
+            <a class="link" href="https://myrdin.atabook.org/" target="_blank"
+              >guestbook</a
+            >
+          </div>
+
+          <div class="home-image"><img id="random-image" /></div>
+
+          <!-- footer (now playing) -->
+          <footer id="footer"></footer>
+        </div>
       </div>
     </div>
 
     <script>
       const totalCovers = 10;
       const randomNumber = Math.floor(Math.random() * totalCovers) + 1;
-      document.getElementById(
-        "random-image"
-      ).src = `media/assets/covers/cover${randomNumber}.png`;
+      document.getElementById("random-image").src =
+        `media/assets/covers/cover${randomNumber}.png`;
     </script>
   </body>
 </html>

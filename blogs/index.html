@@ -1,20 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- for discord -->
-    <meta content="~ myrdin // blogs ⧉ ↟ ~" property="og:title" />
-    <meta content="myrdin's blogposts :)" property="og:description" />
+    <meta content="~ myrdin // photography ⧉ ↟ ~" property="og:title" />
+    <meta content="myrdin's photography :)" property="og:description" />
     <meta content="/media/assets/pfp.png" property="og:image" />
     <meta name="theme-color" content="#6f7e41" />
 
     <!-- for browser -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>myrdin // blogs</title>
+    <title>myrdin // photography</title>
     <link rel="stylesheet" href="/main.css" />
     <link rel="icon" href="/media/assets/pfp.png" />
     <script src="/js/theme.js" defer></script>
-    <script src="/js/lastfm.js"></script>
   </head>
 
   <body>
@@ -24,53 +23,37 @@
     <div class="toggle-theme">
       [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
     </div>
+
     <div class="theme-wrapper">
       <div id="main">
-        <!-- Navigation -->
-        <table width="600px" style="text-align: center">
-          <tr>
-            <td><a class="link" href="/about">about</a></td>
-            <td><a class="link" href="/links">links</a></td>
-            <td><a class="link" href="/blogs">blogs</a></td>
-            <td><a class="link" href="/projects">projects</a></td>
-            <td><a class="link" href="/articles">articles</a></td>
-            <td><a class="link" href="/photography">photography</a></td>
-            <td>
-              <a class="link" href="https://myrdin.atabook.org/" target="_blank"
-                >guestbook</a
-              >
-            </td>
-          </tr>
-        </table>
 
-        <!-- Main content -->
-        <table width="600px" style="margin: 0 auto">
-          <tr>
-            <td
-              width="300px"
-              style="
-                vertical-align: middle;
-                padding-left: 20px;
-                padding-top: 25px;
-              "
-            >
-              <h2>Blogs</h2>
-              <hr />
-              <p><a href="/blogs/gamereviews">Game Reviews</a
-                >
-                - 09-03-2025
-              </p>
-              <p>
-                <a href="/blogs/mediareqs"
-                  >Media Recommendations</a
-                >
-                - 14-03-2025
-              </p>
-              <hr />
-            </td>
-          </tr>
-        </table>
+        <!-- Navigation (flexbox style) -->
+        <nav class="nav-links">
+          <a class="link" href="/index">home</a>
+          <a class="link" href="/links">links</a>
+          <a class="link" href="/blogs">blogs</a>
+          <a class="link" href="/projects">projects</a>
+          <a class="link" href="/articles">articles</a>
+          <a class="link" href="/photography">photography</a>
+          <a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="index">
+          <h2>Blogs</h2>
+          <hr />
+          <p><a href="/blogs/gamereviews">Game Reviews</a>
+              - 09-03-2025
+            </p>
+          <p>
+              <a href="/blogs/mediareqs">Media Recommendations</a>
+              - 14-03-2025
+            </p>
+          <hr />
+        </div>
+
         <a class="link" href="/">[home]</a>
+
       </div>
     </div>
   </body>

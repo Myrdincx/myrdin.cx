@@ -23,55 +23,40 @@
     <div class="toggle-theme">
       [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
     </div>
+
     <div class="theme-wrapper">
       <div id="main">
-        <!-- Navigation -->
-        <table width="600px" style="text-align: center">
-          <tr>
-            <td><a class="link" href="/about">about</a></td>
-            <td><a class="link" href="/links">links</a></td>
-            <td><a class="link" href="/blogs">blogs</a></td>
-            <td><a class="link" href="/projects">projects</a></td>
-            <td><a class="link" href="/articles">articles</a></td>
-            <td><a class="link" href="/photography">photography</a></td>
-            <td>
-              <a class="link" href="https://myrdin.atabook.org/" target="_blank"
-                >guestbook</a
-              >
-            </td>
-          </tr>
-        </table>
 
-        <!-- Main content -->
-        <table width="600px" style="margin: 0 auto">
-          <tr>
-            <td
-              width="300px"
-              style="
-                vertical-align: middle;
-                padding-left: 20px;
-                padding-top: 25px;
-              "
-            >
-              <h2>Photography</h2>
-              <hr />
-              <p>
-                <a href="/photography/sverige2024">Sverige & Danmark</a> -
-                Tags: [nature] [summer 2024]
-              </p>
-              <p>
-                <a href="/photography/posters">Posters</a> - Tags: [wip]
-                [digital]
-              </p>
-              <p>
-                <a href="/photography/astro">Astrophotography</a> - Tags:
-                [wip] [nature]
-              </p>
-              <hr />
-            </td>
-          </tr>
-        </table>
+        <!-- Navigation (flexbox style) -->
+        <nav class="nav-links">
+          <a class="link" href="/index">home</a>
+          <a class="link" href="/links">links</a>
+          <a class="link" href="/blogs">blogs</a>
+          <a class="link" href="/projects">projects</a>
+          <a class="link" href="/articles">articles</a>
+          <a class="link" href="/photography">photography</a>
+          <a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="index">
+          <h2>Photography</h2>
+          <hr />
+          <p>
+            <a href="/photography/sverige2024">Sverige & Danmark</a> -
+            Tags: [nature] [summer 2024]
+          </p>
+          <p>
+            <a href="/photography/posters">Posters</a> - Tags: [wip] [digital]
+          </p>
+          <p>
+            <a href="/photography/astro">Astrophotography</a> - Tags: [wip] [nature]
+          </p>
+          <hr />
+        </div>
+
         <a class="link" href="/">[home]</a>
+
       </div>
     </div>
   </body>

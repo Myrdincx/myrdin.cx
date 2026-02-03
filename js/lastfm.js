@@ -1,4 +1,4 @@
-const user = 'Myrdincx';
+const user = "Myrdincx";
 const url = `https://lastfm-last-played.biancarosa.com.br/${user}/latest-song`;
 
 (async () => {
@@ -9,27 +9,26 @@ const url = `https://lastfm-last-played.biancarosa.com.br/${user}/latest-song`;
     const track = json.track;
     if (!track) return;
 
-    const isNowPlaying = track['@attr']?.nowplaying;
+    const isNowPlaying = track["@attr"]?.nowplaying;
     const trackName = track.name;
-    const artistName = track.artist['#text'];
-    const trackUrl = track.url; 
+    const artistName = track.artist["#text"];
+    const trackUrl = track.url;
 
-    const nowPlaying = document.createElement('p');
-    nowPlaying.className = 'now-playing';
+    const nowPlaying = document.createElement("p");
+    nowPlaying.className = "now-playing";
 
-    const link = document.createElement('a');
+    const link = document.createElement("a");
     link.href = trackUrl;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
     link.textContent = `${trackName} by ${artistName}`;
 
-    nowPlaying.textContent = `${isNowPlaying ? 'Listening to' : 'Last played'}: `;
+    nowPlaying.textContent = `${isNowPlaying ? "Listening to" : "Last played"}: `;
     nowPlaying.appendChild(link);
 
-    const main = document.getElementById('main');
-    main.appendChild(nowPlaying);
+    const footer = document.getElementById("footer");
+    footer.appendChild(nowPlaying);
   } catch (err) {
-    console.error('Failed to load music info:', err);
+    console.error("Failed to load music info:", err);
   }
 })();
-
