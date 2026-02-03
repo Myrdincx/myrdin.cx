@@ -26,32 +26,18 @@
     <div class="theme-wrapper">
       <div id="main">
         <!-- Navigation -->
-        <table width="600px" style="text-align: center">
-          <tr>
-            <td><a class="link" href="/about">about</a></td>
-            <td><a class="link" href="/links">links</a></td>
-            <td><a class="link" href="/blogs">blogs</a></td>
-            <td><a class="link" href="/projects">projects</a></td>
-            <td><a class="link" href="/articles">articles</a></td>
-            <td><a class="link" href="/photography">photography</a></td>
-            <td>
-              <a class="link" href="https://myrdin.atabook.org/" target="_blank"
-                >guestbook</a
-              >
-            </td>
-          </tr>
-        </table>
+        <nav class="nav-links">
+          <a class="link" href="/index">home</a>
+          <a class="link" href="/links">links</a>
+          <a class="link" href="/blogs">blogs</a>
+          <a class="link" href="/projects">projects</a>
+          <a class="link" href="/articles">articles</a>
+          <a class="link" href="/photography">photography</a>
+          <a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a>
+        </nav>
+
         <!-- Main content -->
-        <table width="600px" style="margin: 0 auto">
-          <tr>
-            <td
-              width="300px"
-              style="
-                vertical-align: middle;
-                padding-left: 20px;
-                padding-top: 25px;
-              "
-            >
+        <div class="index">
               <h2>Lainchan Webring</h2>
               <hr />
               <p>
@@ -88,8 +74,8 @@
               </p>
               <div class="code-snippet">
                 <textarea readonly>
-<a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/links/myrdin/button.gif"></a>
-  </textarea
+          <a href="https://myrdin.cx" target="_blank"><img src="https://myrdin.cx/media/links/myrdin/button.gif"></a>
+              </textarea
                 >
                 <button class="copy-btn" onclick="copyCode(this)">Copy</button>
               </div>
@@ -1070,7 +1056,7 @@
                 <hr />
             </td>
           </tr>
-        </table>
+        </div>
         <a class="link" href="/">[home]</a>
         <a class="link" href="/links">[index]</a>
       </div>
