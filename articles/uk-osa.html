@@ -2,12 +2,11 @@
 <html lang="en">
   <head>
     <!-- for discord -->
-    <meta
-      content="~ myrdin // Online Safety Act 2023 ⧉ ↟ ~"
-      property="og:title" />
+    <meta content="~ myrdin // Online Safety Act 2023 ⧉ ↟ ~" property="og:title" />
     <meta
       content="The Online Safety Act: My opinion and 'Bypasses'"
-      property="og:description" />
+      property="og:description"
+    />
     <meta content="/media/assets/pfp.png" property="og:image" />
     <meta name="theme-color" content="#6f7e41" />
 
@@ -15,49 +14,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>myrdin // Online Safety Act 2023</title>
-    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link rel="stylesheet" href="/main.css" />
     <link rel="icon" href="/media/assets/pfp.png" />
     <script src="/js/theme.js" defer></script>
   </head>
 
   <body>
-    <!-- Theme Toggle Inputs -->
+    <!-- Theme toggles -->
     <input type="radio" name="theme" id="dark" checked />
     <input type="radio" name="theme" id="light" />
 
-    <!-- Theme Toggle Control -->
     <div class="toggle-theme">
       [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
     </div>
 
-    <!-- Main Content -->
     <div class="theme-wrapper">
       <div id="main">
+
+        <!-- Navigation -->
+        <nav class="nav-links">
+          <a class="link" href="/about">about</a>
+          <a class="link" href="/links">links</a>
+          <a class="link" href="/blogs">blogs</a>
+          <a class="link" href="/projects">projects</a>
+          <a class="link" href="/articles">articles</a>
+          <a class="link" href="/photography">photography</a>
+          <a class="link" href="https://myrdin.atabook.org/" target="_blank">
+            guestbook
+          </a>
+        </nav>
+
+        <!-- Article Content -->
+        <div class="index">
+
           <h2 id="the-online-safety-act">The Online Safety Act: My opinion</h2>
           <hr />
+
           <h3 id="notice">Notice</h3>
           <p>
             This is not legal advice. Take whatever is written in this article
             with a grain of salt. This article contains
-            <strong>my personal opinion</strong> about the act and its
-            consequences.
-            <strong>You are accountable for your own actions!</strong>
+            <strong>my personal opinion</strong>.
           </p>
-          <p>
-            Throughout this Article, I may refer to the Online Safety Act 2023
-            as <em>OSB or OSA</em>.
-          </p>
+
           <blockquote>
             <p>
-              <em
-                ><strong>NOTE: </strong>I may make changes to this article over
-                time, information is subject to change.</em
-              >
+              <em><strong>NOTE:</strong> This article may change over time.</em>
             </p>
           </blockquote>
+
           <details class="toc">
             <summary><strong>Table of Contents</strong></summary>
-            <ul>
+           <ul>
               <li>
                 <a href="#the-online-safety-act"
                   >The Online Safety Act: My opinion</a
@@ -628,19 +636,22 @@
               >
             </p>
           </details>
+
           <hr />
+
           <p>
             Sharecode:
-            <a
-              href="https://myrdin.cx/articles/uk-osa"
-              target="_blank"
-              rel="noopener noreferrer">
+            <a href="https://myrdin.cx/articles/uk-osa" target="_blank">
               https://myrdin.cx/articles/uk-osa
             </a>
           </p>
+
           <hr />
-        <a class="link" href="/">[home]</a>
-        <a class="link" href="/articles">[index]</a>
+
+          <a class="link" href="/">[home]</a>
+          <a class="link" href="/articles">[index]</a>
+
+        </div>
       </div>
     </div>
   </body>
