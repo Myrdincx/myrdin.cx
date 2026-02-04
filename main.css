@@ -166,7 +166,7 @@ input[type="radio"] {
   }
 }
 
-/* ========== Modal ========== */
+/* ========== Modal (for gallery) ========== */
 .modal {
   display: none;
   position: fixed;
@@ -299,7 +299,7 @@ a {
   text-decoration: underline;
 }
 
-/* ======= Index Container ======= */
+/* ======= Index + Article Container ======= */
 .index {
   max-width: 600px;    
   margin: 0 auto;      
