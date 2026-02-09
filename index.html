@@ -21,9 +21,9 @@
     <noscript>
       <div class="noscript-banner">
         <p>
-          ⚠ JavaScript is disabled. Some features of myrdin.cx may not work
-          properly. We rely on
-          <a href="/js/theme.js" target="_blank">theme.js</a> and 
+          ⚠ JavaScript is disabled. Some features of myrdin.cx may not work properly. We rely on
+          <a href="/js/theme.js" target="_blank">theme.js</a>
+          and
           <a href="/js/lastfm.js" target="_blank">lastfm.js</a>
         </p>
       </div>
@@ -35,7 +35,11 @@
 
     <!-- Theme Toggle Control -->
     <div class="toggle-theme">
-      [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
+      [
+      <label for="dark">☾</label>
+      /
+      <label for="light">☀︎</label>
+      ]
     </div>
 
     <!-- Main Content -->
@@ -45,15 +49,19 @@
         <div class="home-layout">
           <div class="home-links">
             <h3>myrdin.cx ⧉ ↟</h3>
-            <a class="link" href="/about">about</a><br />
-            <a class="link" href="/links">links</a><br />
-            <a class="link" href="/blogs">blogs</a><br />
-            <a class="link" href="/projects">projects</a><br />
-            <a class="link" href="/articles">articles</a><br />
-            <a class="link" href="/photography">photography</a><br />
-            <a class="link" href="https://myrdin.atabook.org/" target="_blank"
-              >guestbook</a
-            >
+            <a class="link" href="/about">about</a>
+            <br />
+            <a class="link" href="/blogs">blogs</a>
+            <br />
+            <a class="link" href="/articles">articles</a>
+            <br />
+            <a class="link" href="/projects">projects</a>
+            <br />
+            <a class="link" href="/photography">photography</a>
+            <br />
+            <a class="link" href="/webring">webring</a>
+            <br />
+            <a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a>
           </div>
 
           <div class="home-image"><img id="random-image" /></div>
@@ -67,8 +75,7 @@
     <script>
       const totalCovers = 10;
       const randomNumber = Math.floor(Math.random() * totalCovers) + 1;
-      document.getElementById("random-image").src =
-        `media/assets/covers/cover${randomNumber}.png`;
+      document.getElementById("random-image").src = `media/assets/covers/cover${randomNumber}.png`;
     </script>
   </body>
 </html>

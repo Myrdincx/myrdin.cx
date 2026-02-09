@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- for discord -->
     <meta content="~ myrdin // astrophotography ⧉ ↟ ~" property="og:title" />
     <meta content="some astrophotos :)" property="og:description" />
@@ -17,19 +16,20 @@
     <link rel="icon" href="/media/assets/pfp.png" />
     <script src="/js/theme.js" defer></script>
     <script src="/js/modalview.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- No Script Banner -->
     <noscript>
-        <div class="noscript-banner">
-            <p>
-                ⚠ JavaScript is disabled. Some features of myrdin.cx may not work
-                properly. We rely on
-                <a href="/js/theme.js" target="_blank">theme.js</a> and
-                <a href="/js/modalview.js" target="_blank">modalview.js</a>.
-            </p>
-        </div>
+      <div class="noscript-banner">
+        <p>
+          ⚠ JavaScript is disabled. Some features of myrdin.cx may not work properly. We rely on
+          <a href="/js/theme.js" target="_blank">theme.js</a>
+          and
+          <a href="/js/modalview.js" target="_blank">modalview.js</a>
+          .
+        </p>
+      </div>
     </noscript>
 
     <!-- Theme toggles -->
@@ -37,55 +37,56 @@
     <input type="radio" name="theme" id="light" />
 
     <div class="toggle-theme">
-        [ <label for="dark">☾</label> / <label for="light">☀︎</label> ]
+      [
+      <label for="dark">☾</label>
+      /
+      <label for="light">☀︎</label>
+      ]
     </div>
 
     <div class="theme-wrapper">
-        <div id="main">
-            <!-- NAVIGATION (flexbox, replaces table) -->
-            <nav class="nav-links">
-                <a class="link" href="/about">about</a>
-                <a class="link" href="/links">links</a>
-                <a class="link" href="/blogs">blogs</a>
-                <a class="link" href="/projects">projects</a>
-                <a class="link" href="/articles">articles</a>
-                <a class="link" href="/photography">photography</a>
-                <a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a>
-            </nav>
+      <div id="main">
+        <!-- NAVIGATION (flexbox, replaces table) -->
+        <nav class="nav-links">
+          <a class="link" href="/about">about</a>
+          <a class="link" href="/blogs">blogs</a>
+          <a class="link" href="/articles">articles</a>
+          <a class="link" href="/projects">projects</a>
+          <a class="link" href="/photography">photography</a>
+          <a class="link" href="/webring">webring</a>
+          <a class="link" href="https://myrdin.atabook.org/" target="_blank">guestbook</a>
+        </nav>
 
-            <!-- PAGE CONTENT -->
-            <section class="index">
-                <hr />
-                <h2>Photography - Astrophotography [WIP]</h2>
+        <!-- PAGE CONTENT -->
+        <section class="index">
+          <hr />
+          <h2>Photography - Astrophotography [WIP]</h2>
 
-                <p>Click the image to enlarge it or to open it in a new tab!</p>
-                <p>
-                    The images have been compressed and turned into the
-                    <em>webp</em> format to save bandwidth — apologies if the quality
-                    isn't the best :(
-                </p>
-                <p>For the full resolution, please contact me!</p>
-                <hr />
-                <p>nothing here yet!</p>
-                <p>come back later :)</p>
-                <hr />
+          <p>Click the image to enlarge it or to open it in a new tab!</p>
+          <p>
+            The images have been compressed and turned into the
+            <em>webp</em>
+            format to save bandwidth — apologies if the quality isn't the best :(
+          </p>
+          <p>For the full resolution, please contact me!</p>
+          <hr />
+          <p>nothing here yet!</p>
+          <p>come back later :)</p>
+          <hr />
 
-                <a class="link" href="../">[home]</a>
-                <a class="link" href="../photography/index">[index]</a>
-            </section>
-        </div>
+          <a class="link" href="../">[home]</a>
+          <a class="link" href="../photography/index">[index]</a>
+        </section>
+      </div>
     </div>
 
     <!-- MODAL -->
     <div class="modal" id="imageModal" onclick="closeModal(event)">
-        <button class="modal-nav prev" onclick="showPrevImage(event)">←</button>
-        <img id="modalImg" src="" alt="Enlarged image" />
-        <p class="modal-caption" id="modalCaption"></p>
-        <a id="openInNewTab" href="#" target="_blank" rel="noopener noreferrer">
-            Open in new tab ↗
-        </a>
-        <button class="modal-nav next" onclick="showNextImage(event)">→</button>
+      <button class="modal-nav prev" onclick="showPrevImage(event)">←</button>
+      <img id="modalImg" src="" alt="Enlarged image" />
+      <p class="modal-caption" id="modalCaption"></p>
+      <a id="openInNewTab" href="#" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
+      <button class="modal-nav next" onclick="showNextImage(event)">→</button>
     </div>
-</body>
-
+  </body>
 </html>
