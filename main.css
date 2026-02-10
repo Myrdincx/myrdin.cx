@@ -431,3 +431,32 @@ a {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
   animation: flickerWarning 0.12s infinite;
 }
+
+/* ========== Language Toggle ========== */
+.toggle-lang {
+  position: fixed;
+  top: 28px;
+  /* slightly below theme toggle */
+  left: 10px;
+  font-size: 14px;
+  z-index: 9999;
+  color: #f3dfc1;
+}
+
+#light:checked~.toggle-lang {
+  color: #1a1c1a;
+}
+
+.toggle-lang a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.toggle-lang a:hover {
+  text-decoration: underline;
+}
+
+.toggle-lang a.active {
+  text-decoration: underline;
+}
