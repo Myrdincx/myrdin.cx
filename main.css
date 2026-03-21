@@ -35,14 +35,14 @@ input[type="radio"] {
 }
 
 #light:checked~.toggle-theme {
-  color: #1a1c1a;
+  color: #0f0f0f;
 }
 
 /* ========== Theme Wrapper ========== */
 .theme-wrapper {
   min-height: 100vh;
   width: 100%;
-  background-color: #1e1e1e;
+  background-color: #0f0f0f;
   color: #f3dfc1;
 
   display: flex;
@@ -52,7 +52,7 @@ input[type="radio"] {
 
 #light:checked~.theme-wrapper {
   background-color: #f3dfc1;
-  color: #1a1c1a;
+  color: #0f0f0f;
 }
 
 /* ========== Main Container ========== */
@@ -92,7 +92,7 @@ input[type="radio"] {
 }
 
 .home-links h3 {
-  color: #778745;
+  color: #234f1e;
 }
 
 .home-image img {
@@ -131,7 +131,7 @@ input[type="radio"] {
 }
 
 .about-text b {
-  color: #778745;
+  color: #234f1e;
 }
 
 /* ========== Gallery ========== */
@@ -224,7 +224,7 @@ input[type="radio"] {
 }
 
 .modal-nav:hover {
-  color: #778745;
+  color: #234f1e;
   transform: translateY(-50%) scale(1.15);
 }
 
@@ -252,12 +252,12 @@ input[type="radio"] {
 }
 
 .theme-wrapper a.link:hover {
-  color: #778745;
+  color: #234f1e;
   transform: scale(1.2);
 }
 
 .theme-wrapper a.link:active {
-  color: #778745;
+  color: #234f1e;
 }
 
 #light:checked~.theme-wrapper a.link:link,
@@ -267,11 +267,11 @@ input[type="radio"] {
 
 #light:checked~.theme-wrapper a.link:hover,
 #light:checked~.theme-wrapper a.link:active {
-  color: #778745;
+  color: #234f1e;
 }
 
 a {
-  color: #778745;
+  color: #234f1e;
 }
 
 /* ========== Footer / Now Playing ========== */
@@ -287,11 +287,11 @@ a {
 
 .now-playing {
   font-size: 11px;
-  color: #778745;
+  color: #234f1e;
 }
 
 .now-playing a {
-  color: #778745;
+  color: #234f1e;
   text-decoration: none;
 }
 
@@ -352,7 +352,7 @@ a {
 
 .copy-btn {
   padding: 0 10px;
-  background-color: #778745;
+  background-color: #234f1e;
   color: #f3dfc1;
   border: none;
   cursor: pointer;
@@ -366,7 +366,7 @@ a {
 }
 
 #light:checked~.theme-wrapper .copy-btn {
-  background-color: #778745;
+  background-color: #234f1e;
   color: #f3dfc1;
 }
 
