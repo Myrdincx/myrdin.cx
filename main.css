@@ -20,7 +20,7 @@ input[type="radio"] {
   left: 10px;
   font-size: 14px;
   z-index: 9999;
-  color: #f3dfc1;
+  color: #f7efca;
 }
 
 .toggle-theme label {
@@ -35,15 +35,15 @@ input[type="radio"] {
 }
 
 #light:checked~.toggle-theme {
-  color: #0f0f0f;
+  color: #151515;
 }
 
 /* ========== Theme Wrapper ========== */
 .theme-wrapper {
   min-height: 100vh;
   width: 100%;
-  background-color: #0f0f0f;
-  color: #f3dfc1;
+  background-color: #151515;
+  color: #f7efca;
 
   display: flex;
   justify-content: center;
@@ -51,8 +51,8 @@ input[type="radio"] {
 }
 
 #light:checked~.theme-wrapper {
-  background-color: #f3dfc1;
-  color: #0f0f0f;
+  background-color: #f7efca;
+  color: #151515;
 }
 
 /* ========== Main Container ========== */
@@ -189,14 +189,14 @@ input[type="radio"] {
 }
 
 .modal a {
-  color: #f3dfc1;
+  color: #f7efca;
   font-size: 14px;
   text-decoration: underline;
 }
 
 .modal-caption {
   font-size: 12px;
-  color: #f3dfc1;
+  color: #f7efca;
   text-align: center;
   max-width: 90%;
   margin-top: -0.5rem;
@@ -212,7 +212,7 @@ input[type="radio"] {
   transform: translateY(-50%);
   border: none;
   font-size: 2rem;
-  color: #f3dfc1;
+  color: #f7efca;
   padding: 0.4rem 0.8rem;
   background: transparent;
   cursor: pointer;
@@ -248,7 +248,7 @@ input[type="radio"] {
 
 .theme-wrapper a.link:link,
 .theme-wrapper a.link:visited {
-  color: #f3dfc1;
+  color: #f7efca;
 }
 
 .theme-wrapper a.link:hover {
@@ -353,7 +353,7 @@ a {
 .copy-btn {
   padding: 0 10px;
   background-color: #234f1e;
-  color: #f3dfc1;
+  color: #f7efca;
   border: none;
   cursor: pointer;
   font-size: 12px;
@@ -367,7 +367,7 @@ a {
 
 #light:checked~.theme-wrapper .copy-btn {
   background-color: #234f1e;
-  color: #f3dfc1;
+  color: #f7efca;
 }
 
 #light:checked~.theme-wrapper .copy-btn:hover {
@@ -424,7 +424,7 @@ a {
   z-index: 10000;
 
   background: #ff0000;
-  color: #f3dfc1;
+  color: #f7efca;
   text-align: center;
   padding: 0.5rem;
   font-size: 0.9rem;
@@ -440,7 +440,7 @@ a {
   left: 10px;
   font-size: 14px;
   z-index: 9999;
-  color: #f3dfc1;
+  color: #f7efca;
 }
 
 #light:checked~.toggle-lang {
