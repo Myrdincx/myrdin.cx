@@ -431,3 +431,32 @@ a {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
   animation: flickerWarning 0.12s infinite;
 }
+
+/* ========== Rewrite Banner ========== */
+.rewrite-banner {
+  border: 1px solid #6f7e41;
+  background: rgba(111, 126, 65, 0.08);
+  color: inherit;
+  padding: 10px 16px;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.rewrite-banner .banner-icon {
+  color: #6f7e41;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.rewrite-banner p {
+  margin: 0;
+}
+
+.rewrite-banner strong {
+  color: #8ea559;
+  font-weight: normal;
+}
